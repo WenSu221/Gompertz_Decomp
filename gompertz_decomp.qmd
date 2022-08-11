@@ -1,0 +1,7 @@
+---
+title: "Geompertz_decomp"
+format: html
+editor: visual
+---
+
+# Testing the mortality shift and compression hypothesis
