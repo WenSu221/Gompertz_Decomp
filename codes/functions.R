@@ -5,6 +5,14 @@
 
 library(DEoptim)
 
+# Arguments:
+
+# Dx and Nx are matrix of the death counts and exposure
+# Rows are ages and columns years
+# The column should be named with the year, for example as "1950"
+# age.start and age.end are the first and last age consider for the 
+# decomposition (example: age.start=30 and age.end=100)
+
 Decomp.Gompertz<- function(Dx,Nx, age.start, age.end){
   
   

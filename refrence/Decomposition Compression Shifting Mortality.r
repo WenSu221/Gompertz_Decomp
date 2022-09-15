@@ -76,20 +76,23 @@ Decomp.Gompertz<- function(Dx,Nx, age.start, age.end){
     p1 <- b*exp(b*(x-M))
     return(p1)
   }
+  
   ll.poisson.gompertz <- function(theta, Dx, Nx, x){
     M <- theta[1]
     b <- theta[2]
     out <-  -sum(Dx*log(gompertz(x=x, M=M, b=b))-gompertz(x=x, M=M,b=b)*Nx)
     return(out)
-    
   }
+  
   par <- matrix(NA, nrow=ncol(Dx), ncol=2)
+  
   for(i in 1:nrow(par)){
     par[i,] <- DEoptim(fn=ll.poisson.gompertz, lower=c(50,  0.01),  
                               upper=c(110,  4), Dx=Dx[,i], 
                               Nx=Nx[,i],x=age, 
                               control=DEoptim.control(trace=300))$optim$bestmem
   }
+  
   rownames(par)<-colnames(Dx)
   colnames(par)<- c("M", "B")
   
