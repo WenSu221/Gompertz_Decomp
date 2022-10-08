@@ -13,10 +13,10 @@ library(DEoptim)
 # age.start and age.end are the first and last age consider for the 
 # decomposition (example: age.start=30 and age.end=100)
 
-Decomp.Gompertz<- function(Dx,Nx, age.start, age.end){
+Decomp.Makeham<- function(Dx,Nx, age.start, age.end){
   
   
-  age<-c(age.start:age.end)
+  age<-c(age.start: age.end)
   
   
   ##names of the periods
@@ -25,116 +25,150 @@ Decomp.Gompertz<- function(Dx,Nx, age.start, age.end){
   year2<- colnames(Dx[,2:ncol(Dx)])
   splitted <- (t(sapply(year2, function(x) substring(x, first=3, last=4))))
   period<- c(1:length(year1))
-  
   for (i in 1:length(period)){
     period[i]<- paste(year1[i], splitted[i], sep="-")
   }
   
   
-  ## Gompertz, Poisson log-likelihood
+  ## Gompertz-Makeham, Poisson log-likelihood
   
-  gompertz <- function(M,b,x){
-    p1 <- b*exp(b*(x-M))
+  gomp.make <- function(c,M,b2,x){
+    p1 <-  c + (b2*exp(b2*(x-M)))
     return(p1)
   }
-  
-  ll.poisson.gompertz <- function(theta, Dx, Nx, x){
-    M <- theta[1]
-    b <- theta[2]
-    out <-  -sum(Dx*log(gompertz(x=x, M=M, b=b))-gompertz(x=x, M=M,b=b)*Nx)
+  ll.poisson.make <- function(theta, Dx, Nx, x){
+    c<- theta[1]
+    M <- theta[2]
+    b2 <- theta[3]
+    out <-  -sum(Dx*log(gomp.make(x=x, c=c, M=M, b2=b2))-
+                   gomp.make(x=x, c=c, M=M, b2=b2)*Nx)
     return(out)
     
   }
-  par <- matrix(NA, nrow=ncol(Dx), ncol=2)
+  par<- matrix(NA, nrow=ncol(Dx), ncol=3)
   for(i in 1:nrow(par)){
-    par[i,] <- DEoptim(fn=ll.poisson.gompertz, lower=c(50,  0.01),  
-                       upper=c(110,  4), Dx=Dx[,i], 
-                       Nx=Nx[,i],x=age, 
+    par[i,] <- DEoptim(fn=ll.poisson.make, lower=c( 0, 50,  0.04),  
+                       upper=c(0.1, 110,  4), 
+                       Dx=Dx[,i], 
+                       Nx= Nx[,i],x=age, 
                        control=DEoptim.control(trace=300))$optim$bestmem
   }
   rownames(par)<-colnames(Dx)
-  colnames(par)<- c("M", "B")
+  colnames(par)<- c("c" ,"M", "B")
+  
+  
+  ## Makeham term (c) contribution function (variability effect)
+  
+  c.ex.fun<-function(c1, c2, B1, B2, M1, M2){
+    f2<-function(x){
+      # Survival function
+      lx1<- exp(-(c1*x) - (exp(-B1*M1)*(exp(B1*x)-1)))
+      lx2<- exp(-(c2*x) - (exp(-B2*M2)*(exp(B2*x)-1)))
+      # c dot
+      c.dot<- log((c2/c1))*(c1*c2)^(1/2)
+      #contributions
+      cont<- -c.dot*x*(lx1*((lx2/lx1)^(1/2)))
+      return(cont)
+    }
+    return(f2)
+  }
+  int.c <- function (c1, c2, B1, B2, M1, M2) { 
+    integrate(c.ex.fun(c1, c2, B1, B2, M1, M2),  
+              lower=age.start, upper=age.end)$value 
+  }
+  c.ex<- c(1:(nrow(par)-1))
+  for(i in 1:length(c.ex)){
+    c.ex[i]<- int.c(c1=par[i,1], c2=par[(i+1),1],
+                    B1=par[i,3], B2=par[(i+1),3], 
+                    M1=par[i,2], M2=par[(i+1),2])
+  }
+  names(c.ex)<-period
   
   
   ## Beta contribution function (variability effect)
   
-  B.ex.fun<- function(b1, b2, M1, M2){
+  B.ex.fun<-function(c1, c2, B1, B2, M1, M2){
     f2<-function(x){
-      #Survival function
-      lx1<-exp(-exp(-b1*M1)*(exp(b1*x)-1))
-      lx2<-exp(-exp(-b2*M2)*(exp(b2*x)-1))
-      #Cumulative hazard function
-      Hx1<-exp(-b1*M1)*(exp(b1*x)-1)
-      Hx2<-exp(-b2*M2)*(exp(b2*x)-1)
-      #Beta dot
-      B.dot<- log(b2/b1)*(b1*b2)^(1/2)
-      #Beta contribution
+      # Survival function
+      lx1<- exp(-(c1*x) - (exp(-B1*M1)*(exp(B1*x)-1)))
+      lx2<- exp(-(c2*x) - (exp(-B2*M2)*(exp(B2*x)-1)))
+      # Cumulative hazard function for the Gompertz
+      Hx1<-exp(-B1*M1)*(exp(B1*x)-1)
+      Hx2<-exp(-B2*M2)*(exp(B2*x)-1)
+      # Beta dot
+      B.dot<- log(B2/B1)*(B1*B2)^(1/2)
+      #contributions
       cont<- -B.dot*
         (lx1*((lx2/lx1)^(1/2)))*
-        (((Hx1*(x-M1))+(x*exp(-b1*M1)))*
-           abs(((Hx2*(x-M2))+(x*exp(-b2*M2)))/
-                 ((Hx1*(x-M1))+(x*exp(-b1*M1))))^(1/2))
+        (((Hx1*(x-M1))+(x*exp(-B1*M1)))*
+           abs(((Hx2*(x-M2))+(x*exp(-B2*M2)))/
+                 ((Hx1*(x-M1))+(x*exp(-B1*M1))))^(1/2))
       return(cont)
     }
     return(f2)
   }
-  int.B <- function (b1, b2, M1, M2) { 
-    integrate(B.ex.fun(b1, b2, M1, M2),  lower=age.start, upper=age.end)$value 
+  int.B <- function ( c1, c2, B1, B2, M1, M2) { 
+    integrate(B.ex.fun(c1, c2, B1, B2, M1, M2),  
+              lower=age.start, upper=age.end)$value 
   }
   B.ex<- c(1:(nrow(par)-1))
   for(i in 1:length(B.ex)){
-    B.ex[i]<- int.B(b1=par[i,2], b2=par[(i+1),2], 
-                    M1=par[i,1], M2=par[(i+1),1])
+    B.ex[i]<- int.B(c1=par[i,1], c2=par[(i+1),1],
+                    B1=par[i,3], B2=par[(i+1),3], 
+                    M1=par[i,2], M2=par[(i+1),2])
   }
   names(B.ex)<-period
   
   
-  ## M contribution function (shifting effect)
+  ##M contribution function (shifting effect)
   
-  M.ex.fun<- function(b1, b2, M1, M2){
+  M.ex.fun<-function(c1, c2, B1, B2, M1, M2){
     f2<-function(x){
-      #Survival function
-      lx1<-exp(-exp(-b1*M1)*(exp(b1*x)-1))
-      lx2<-exp(-exp(-b2*M2)*(exp(b2*x)-1))
-      #Cumulative hazard function
-      Hx1<-exp(-b1*M1)*(exp(b1*x)-1)
-      Hx2<-exp(-b2*M2)*(exp(b2*x)-1)
-      #M dot
+      # Survival
+      lx1<- exp(-(c1*x) - (exp(-B1*M1)*(exp(B1*x)-1)))
+      lx2<- exp(-(c2*x) - (exp(-B2*M2)*(exp(B2*x)-1)))
+      # Cumulative hazard, Gompertz
+      Hx1<-exp(-B1*M1)*(exp(B1*x)-1)
+      Hx2<-exp(-B2*M2)*(exp(B2*x)-1)
+      # M. dot
       M.dot<- log(M2/M1)*(M1*M2)^(1/2)
-      #M contribution
+      #contributions
       cont<- M.dot*
-        (((lx2*lx1)^(1/2))*
-           ((Hx2*Hx1)^(1/2))*
-           ((b2*b1)^(1/2)))
+        (lx1*((lx2/lx1)^(1/2)))*
+        (Hx1*(Hx2/Hx1)^(1/2))*
+        (B1*(B2/B1)^(1/2))
       return(cont)
     }
     return(f2)
   }
-  int.M <- function (b1, b2, M1, M2) { 
-    integrate(M.ex.fun(b1, b2, M1, M2),  lower=age.start, upper=age.end)$value 
+  int.M <- function (c1, c2, B1, B2, M1, M2) { 
+    integrate(M.ex.fun(c1, c2, B1, B2, M1, M2),  
+              lower=age.start, upper=age.end)$value 
   }
   M.ex<- c(1:(nrow(par)-1))
   for(i in 1:length(M.ex)){
-    M.ex[i]<- int.M(b1=par[i,2], b2=par[(i+1),2], 
-                    M1=par[i,1], M2=par[(i+1),1])
+    M.ex[i]<- int.M(c1=par[i,1], c2=par[(i+1),1],
+                    B1=par[i,3], B2=par[(i+1),3], 
+                    M1=par[i,2], M2=par[(i+1),2])
   }
   names(M.ex)<-period
   
   
   ##Life expectancy
   
-  lx.fun<- function(b,M){
+  lx.fun<- function(c,B,M){
     f2<- function(x){
-      exp(-exp(-b*M)*(exp(b*x)-1))
+      exp(-(c*x) - (exp(-B*M)*(exp(B*x)-1)))
     }
     return(f2)
   }
-  int2 <- function (b, M) { 
-    integrate(lx.fun(b, M),  lower=age.start, upper=age.end)$value 
+  int2 <- function (c,B,M) { 
+    integrate(lx.fun(c,B,M),  lower=age.start, 
+              upper=age.end)$value 
   }
   ex<- c(1:nrow(par))
   for(i in 1:length(ex)){
-    ex[i]<- int2(par[i,2], par[i,1])
+    ex[i]<- int2( c=par[i,1],  B=par[i,3], M=par[i,2])
   }
   names(ex)<-colnames(Dx)
   
@@ -148,8 +182,10 @@ Decomp.Gompertz<- function(Dx,Nx, age.start, age.end){
   names(diff.ex)<-period
   
   
-  ##Returned values
+  ##Values returned
   
-  results<- list(par=par, deltaB=B.ex, deltaM=M.ex, deltaex=diff.ex, ex=ex)
+  results<- list(par=par, deltac=c.ex, 
+                 deltaB=B.ex, deltaM=M.ex, 
+                 deltaex=diff.ex, ex=ex)
   return<- results
 }
