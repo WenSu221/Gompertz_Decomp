@@ -9,51 +9,62 @@ library(data.table)
 library(RColorBrewer)
 library(ggplot2)
 
-Data <- fread("data/Blacks.txt",fill=T)
-Data$Population <- as.numeric(Data$Population)
+death <- fread("data/deaths_nonhis white_cleaned.txt")
+pop_smooth <- fread("data/pop_nonhis white_cleaned.txt")
 
-Data1 <- Data[Gender=="Male"&
-                `Single-Year Ages Code`<85&
-                `Single-Year Ages Code`>=30,]
+Dx <- death[Gender=="M",][,3:12]
+Dx <- Dx[-c(1:30),]
+Ex <- pop_smooth[gender=="M",][,3:12]
+Ex <- Ex[-c(1:30)]
 
-Data1 <- Data1[,list(`Single-Year Ages Code`,
-                   `Year Code`,Deaths,Population)]
+# Dx <- matrix(Data1$Deaths,nrow = 55, byrow = T,
+#               dimnames = list(names(30:84),c(2001:2020)))
+# Ex <- matrix(Data1$Population,nrow = 55, byrow = T,
+#               dimnames = list(names(30:84),c(2001:2020)))
 
-Dx <- matrix(Data1$Deaths,nrow = 55, byrow = T,
-              dimnames = list(names(30:84),c(1999:2020)))
-Ex <- matrix(Data1$Population,nrow = 55, byrow = T,
-              dimnames = list(names(30:84),c(1999:2020)))
-
-age.interval <- c(30,84)
+age.interval <- c(30,100)
 age <- (age.interval[1]:age.interval[2])
 year.interval<-c(as.numeric(colnames(Ex)[1]),
                  as.numeric(colnames(Ex)[ncol(Ex)]))
 
-death.counts <- Dx
-expo.counts <- Ex
+death.counts <- as.matrix(Dx)
+expo.counts <- as.matrix(Ex)
 
-gomp <- Decomp.Gompertz(death.counts,expo.counts,age.start = 30,age.end = 110)
+gomp <- Decomp.Makeham(death.counts,expo.counts,age.start = 30,age.end = 100)
 
-categories <- c(rep(1,1),rep(2:5,each=5))
+categories <- rep(1:9,each=1)
 
-B5.ex.gomp<- tapply(gomp$deltaB , categories , sum )
-M5.ex.gomp<- tapply(gomp$deltaM , categories , sum )
-e5.ex.gomp<- tapply(gomp$deltae , categories , sum )
+c5.ex.make<- tapply(gomp$deltac  , categories , sum )
+B5.ex.make<- tapply(gomp$deltaB , categories , sum )
+M5.ex.make<- tapply(gomp$deltaM , categories , sum )
+e5.ex.make<- tapply(gomp$deltae , categories , sum )
 
-data <- data.table(label = c(rep("compression",5),rep("shift",5)),
-                   value = c(B5.ex.gomp,M5.ex.gomp),
-                   year = rep(c("1999-2000",
-                                paste(seq(2001,2016,5),"-",
-                                      seq(2005,2020,5)))
-                   )
+data <- data.table(
+  label = c(rep("background",length(e5.ex.make)),
+            rep("compression",length(e5.ex.make)),
+            rep("shift",length(e5.ex.make))),
+  value = c(c5.ex.make,
+            B5.ex.make,
+            M5.ex.make),
+  year = paste(
+    seq(2011,2019,1),"-",seq(2012,2020,1),sep = ""
+  )
 )
 
-data$label <- factor(data$label,levels = c("shift","compression"))
+data$label <- factor(data$label,levels = c("shift","compression","background"))
 
-ggplot(data, aes(x=year,y=value,fill=label))+
-  geom_col()+
-  scale_fill_manual(values = c("orange","navy"))+
+ggplot(data, aes(x=year,y=value))+
+  geom_col(aes(fill=label))+
+  stat_summary(fun = sum,geom = "point")+
+  scale_fill_manual(values = c("orange","navy","lightblue"))+
+  scale_y_continuous(limits = c(-5,2))+
   theme_classic()+
   theme(panel.grid.major.x = element_line(colour = "grey"),
         axis.text.x = element_text(angle = 45,vjust = 1.2,hjust = 1.2))+
-  guides(fill=guide_legend("Components"))
+  guides(fill=guide_legend("Components"))+
+  labs(x="Year",y="Contribution",
+       title = "Changes in Life expectancy for the US with Gompertz-Makeham Model,
+        Native Male 2011-2020")
+
+ggsave("report/USA_Male_native,three_comp_2011-2020.pdf",
+       width = 8,height = 6)

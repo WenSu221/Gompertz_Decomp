@@ -1,0 +1,52 @@
+abv,fln,label,label2
+AK,Alaska,Pacific,West
+AL,Alabama,East South Central,South
+AR,Arkansas,West South Central,South
+AZ,Arizona,Moutain,West
+CA,California,Pacific,West
+CO,Colorado,Moutain,West
+CT,Connecticut,New England,Northeast
+DC,District of Columbia,South Atlantic,South
+DE,Delaware,South Atlantic,South
+FL,Florida,South Atlantic,South
+GA,Georgia,South Atlantic,South
+HI,Hawaii,Pacific,West
+IA,Iowa,West North Central,Midwest
+ID,Idaho,Moutain,West
+IL,Illinois,East North Central,Midwest
+IN,Indiana,East North Central,Midwest
+KS,Kansas,West North Central,Midwest
+KY,Kentucky,East South Central,South
+LA,Louisiana,West South Central,South
+MA,Massachusetts,New England,Northeast
+MD,Maryland,South Atlantic,South
+ME,Maine,New England,Northeast
+MI,Michigan,East North Central,Midwest
+MN,Minnesota,West North Central,Midwest
+MO,Missouri,West North Central,Midwest
+MS,Mississippi,East South Central,South
+MT,Montana,Moutain,West
+NC,North Carolina,South Atlantic,South
+ND,North Dakota,West North Central,Midwest
+NE,Nebraska,West North Central,Midwest
+NH,New Hampshire,New England,Northeast
+NJ,New Jersey,Middle Atlantic,Northeast
+NM,New Mexico,Moutain,West
+NV,Nevada,Moutain,West
+NY,New York,Middle Atlantic,Northeast
+OH,Ohio,East North Central,Midwest
+OK,Oklahoma,West South Central,South
+OR,Oregon,Pacific,West
+PA,Pennsylvania,Middle Atlantic,Northeast
+RI,Rhode Island,New England,Northeast
+SC,South Carolina,South Atlantic,South
+SD,South Dakota,West North Central,Midwest
+TN,Tennessee,East South Central,South
+TX,Texas,West South Central,South
+UT,Utah,Moutain,West
+VA,Virginia,South Atlantic,South
+VT,Vermont,New England,Northeast
+WA,Washington,Pacific,West
+WI,Wisconsin,East North Central,Midwest
+WV,West Virginia,South Atlantic,South
+WY,Wyoming,Moutain,West
