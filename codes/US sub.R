@@ -40,9 +40,9 @@ M5.ex.make<- tapply(gomp$deltaM , categories , sum )
 e5.ex.make<- tapply(gomp$deltae , categories , sum )
 
 data <- data.table(
-  label = c(rep("background",length(e5.ex.make)),
-            rep("compression",length(e5.ex.make)),
-            rep("shift",length(e5.ex.make))),
+  label = c(rep("Background",length(e5.ex.make)),
+            rep("Compression",length(e5.ex.make)),
+            rep("Shift",length(e5.ex.make))),
   value = c(c5.ex.make,
             B5.ex.make,
             M5.ex.make),
@@ -51,12 +51,12 @@ data <- data.table(
   )
 )
 
-data$label <- factor(data$label,levels = c("shift","compression","background"))
+data$label <- factor(data$label,levels = c("Background","Compression","Shift"))
 
 ggplot(data, aes(x=year,y=value))+
   geom_col(aes(fill=label))+
   stat_summary(fun = sum,geom = "point")+
-  scale_fill_manual(values = c("orange","navy","lightblue"))+
+  scale_fill_manual(values = c("lightblue","navy","orange"))+
   scale_y_continuous(limits = c(-5,2))+
   theme_classic()+
   theme(panel.grid.major.x = element_line(colour = "grey"),
@@ -64,7 +64,7 @@ ggplot(data, aes(x=year,y=value))+
   guides(fill=guide_legend("Components"))+
   labs(x="Year",y="Contribution",
        title = "Changes in Life expectancy for the US with Gompertz-Makeham Model,
-        Native Male 2011-2020")
+        Non-Hispanic White Male 2011-2020")
 
-ggsave("report/USA_Male_native,three_comp_2011-2020.pdf",
+ggsave("report/USA_Male_nonhis white,three_comp_2011-2020.pdf",
        width = 8,height = 6)

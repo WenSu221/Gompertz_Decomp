@@ -1,8 +1,7 @@
 
-###
-### Decomposition of the Life expectancy changes
-### into two components, the shift and the compression
-###
+####
+#### Decomp with Siler
+####
 
 ##  This is primarily a replication of the work done by Bergeron-
 ##  Boucher et al., 2015. 
@@ -13,19 +12,21 @@ library(data.table)
 library(RColorBrewer)
 library(ggplot2)
 
-Dx <- fread("data/USA.Deaths_1x1.txt")[,list(Year,Age,Male)]
+cnty <- "USA"
+
+Dx <- fread(paste("data/",cnty,".Deaths_1x1.txt",sep=""))[,list(Year,Age,Male)]
+
+year.range <- unique(Dx$Year)
 
 Dx <- matrix(data = Dx$Male,nrow = 111,ncol = length(unique(Dx$Year)),
              dimnames = list(unique(Dx$Age),unique(Dx$Year)))
 
-Ex <- fread("data/USA.Exposures_1x1.txt")[,list(Year,Age,Male)]
+Ex <- fread(paste("data/",cnty,".Exposures_1x1.txt",sep=""))[,list(Year,Age,Male)]
 
 Ex <- matrix(data = Ex$Male,nrow = 111,ncol = length(unique(Ex$Year)),
              dimnames = list(unique(Ex$Age),unique(Ex$Year)))
 
-#### Gompertz makeham #####
-
-age.interval <- c(30,110)
+age.interval <- c(0,110)
 
 age <- (age.interval[1]:age.interval[2])
 year.interval<-c(as.numeric(colnames(Ex)[1]),
@@ -36,37 +37,47 @@ death.counts <- Dx[(age.interval[1]+1):(age.interval[2]+1),
 expo.counts <- Ex[(age.interval[1]+1):(age.interval[2]+1), 
                   as.character(c(year.interval[1]:year.interval[2]))]
 
-gomp <- Decomp.Makeham(death.counts,expo.counts,
-                       age.start = 30,age.end = 110)
+gomp <- Decomp.Siler(death.counts,expo.counts,
+                     age.start = 0,age.end = 110)
 
 #### Time trends ####
 
-categories <- c(rep(1:29,each=3))
+year.no <- length(year.range)%/%5
+year.odd <- length(year.range)-year.no*5
 
-c5.ex.make<- tapply(gomp$deltac , categories , sum )
-B5.ex.make<- tapply(gomp$deltaB , categories , sum )
-M5.ex.make<- tapply(gomp$deltaM , categories , sum )
-e5.ex.make<- tapply(gomp$deltae , categories , sum )
+a5.ex.siler<- tapply(gomp$deltaa , categories , sum )
+b5.ex.siler<- tapply(gomp$deltab , categories , sum )
+c5.ex.siler<- tapply(gomp$deltac , categories , sum )
+B5.ex.siler<- tapply(gomp$deltaB , categories , sum )
+M5.ex.siler<- tapply(gomp$deltaM , categories , sum )
+e5.ex.siler<- tapply(gomp$deltae , categories , sum )
 
-data <- data.table(label = c(rep("Background",29),
-                             rep("Compression",29),
-                             rep("Shift",29)),
-                   value = c(c5.ex.make,
-                             B5.ex.make,
-                             M5.ex.make),
-                   year = c(paste(seq(1933,2017,3),"-",
-                                      seq(1936,2020,3)))
-                   )
+data <- data.table(label = c(rep("infant mortlaiy initial",year.no+1),
+                             rep("infant mortality decrease",year.no+1),
+                             rep("Background",year.no+1),
+                             rep("Compression",year.no+1),
+                             rep("Shift",year.no+1)),
+                   value = c(a5.ex.siler,
+                             b5.ex.siler,
+                             c5.ex.siler,
+                             B5.ex.siler,
+                             M5.ex.siler),
+                   year = paste(c(year.range[year.odd],
+                            seq(year.range[year.odd+5],
+                                year.range[length(year.range)],5)))
+)
 
 data$label <- factor(data$label,
-                     levels = c("Background",
+                     levels = c("infant mortlaiy initial",
+                                "infant mortality decrease",
+                                "Background",
                                 "Compression",
                                 "Shift"))
 
 ggplot(data, aes(x=year,y=value))+
   geom_col(aes(fill=label))+
   stat_summary(fun = sum,geom = "point")+
-  scale_fill_manual(values = c("lightblue","navy","orange"))+
+  scale_fill_manual(values = c("pink","lightyellow","lightblue","navy","orange"))+
   theme_classic()+
   theme(panel.grid.major.x = element_line(colour = "grey"),
         axis.text.x = element_text(angle = 45,
@@ -78,16 +89,22 @@ ggplot(data, aes(x=year,y=value))+
        Male 1933-2020")+
   guides(fill=guide_legend("Components"))
 
-ggsave("report/USA_Male,three_comp.pdf",
+path_out <- paste("report/", cnty, "_Male,five_comp.pdf")
+
+ggsave(path_out,
        width = 8,height = 6)
 
 
 #### Last ten years ####
 
-data2 <- data.table(label = c(rep("Background",9),
+data2 <- data.table(label = c(rep("infant mortlaiy initial",9),
+                              rep("infant mortality decrease",9),
+                              rep("Background",9),
                               rep("Compression",9),
                               rep("Shift",9)),
-                    value = c(gomp$deltac[79:87],
+                    value = c(gomp$deltaa[79:87],
+                              gomp$deltab[79:87],
+                              gomp$deltac[79:87],
                               gomp$deltaB[79:87],
                               gomp$deltaM[79:87]),
                     year = c(paste(seq(2011,2019,1),"-",
@@ -95,14 +112,16 @@ data2 <- data.table(label = c(rep("Background",9),
 )
 
 data2$label <- factor(data2$label,
-                     levels = c("Background",
-                                "Compression",
-                                "Shift"))
+                      levels = c("infant mortality decrease",
+                                 "infant mortlaiy initial",
+                                 "Background",
+                                 "Compression",
+                                 "Shift"))
 
 ggplot(data2, aes(x=year,y=value))+
   geom_col(aes(fill=label))+
   stat_summary(fun = sum,geom = "point")+
-  scale_fill_manual(values = c("lightblue","navy","orange"))+
+  scale_fill_manual(values = c("pink","lightyellow","lightblue","navy","orange"))+
   scale_y_continuous(limits = c(-5,2))+
   theme_classic()+
   theme(panel.grid.major.x = element_line(colour = "grey"),
@@ -115,5 +134,5 @@ ggplot(data2, aes(x=year,y=value))+
        Male 2011-2020")+
   guides(fill=guide_legend("Components"))
 
-ggsave("report/USA_Male,three_comp_2011-2020.pdf",
+ggsave("report/USA_Male,five_comp_2011-2020.pdf",
        width = 8,height = 6)
