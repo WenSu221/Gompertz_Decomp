@@ -45,6 +45,8 @@ gomp <- Decomp.Siler(death.counts,expo.counts,
 year.no <- length(year.range)%/%5
 year.odd <- length(year.range)-year.no*5
 
+categories <- c(rep(1,2),rep(2:18,each=5))
+
 a5.ex.siler<- tapply(gomp$deltaa , categories , sum )
 b5.ex.siler<- tapply(gomp$deltab , categories , sum )
 c5.ex.siler<- tapply(gomp$deltac , categories , sum )
@@ -89,7 +91,7 @@ ggplot(data, aes(x=year,y=value))+
        Male 1933-2020")+
   guides(fill=guide_legend("Components"))
 
-path_out <- paste("report/", cnty, "_Male,five_comp.pdf")
+path_out <- paste("report/", cnty, "_Male,five_comp.pdf",sep="")
 
 ggsave(path_out,
        width = 8,height = 6)

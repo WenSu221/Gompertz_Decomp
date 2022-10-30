@@ -1,0 +1,2 @@
+The codes can be found with the following public available link:
+https://github.com/WenSu221/Gompertz_Decomp 

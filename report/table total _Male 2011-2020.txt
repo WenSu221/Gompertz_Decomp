@@ -1,0 +1,10 @@
+year2,label,value
+2011-2015,Background,-0.191
+2015-2019,Background,-1.273
+2019-2020,Background,-2.163
+2011-2015,Compression,-0.097
+2015-2019,Compression,0.18
+2019-2020,Compression,0.216
+2011-2015,Shift,0.23
+2015-2019,Shift,0.513
+2019-2020,Shift,-1.063

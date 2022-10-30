@@ -9,8 +9,12 @@ library(data.table)
 library(RColorBrewer)
 library(ggplot2)
 
-death <- fread("data/deaths_nonhis white_cleaned.txt")
-pop_smooth <- fread("data/pop_nonhis white_cleaned.txt")
+label <- c("blacks","native","nonhis white","total")
+
+death <- fread(paste("data/deaths_", label[4], 
+                     "_cleaned.txt",sep=""))
+pop_smooth <- fread(paste("data/pop_", label[4], 
+                          "_cleaned.txt",sep=""))
 
 Dx <- death[Gender=="M",][,3:12]
 Dx <- Dx[-c(1:30),]
@@ -51,9 +55,27 @@ data <- data.table(
   )
 )
 
+data <- data[,year2 := fcase(year %in% c("2011-2012",
+                                           "2012-2013",
+                                           "2013-2014",
+                                           "2014-2015"),
+                               year2 = "2011-2015",
+                               year %in% c("2015-2016",
+                                           "2016-2017",
+                                           "2017-2018",
+                                           "2018-2019"),
+                               year2 = "2015-2019",
+                               year == "2019-2020",
+                               year2 = "2019-2020")]
+
+data <- data[,list(value=sum(value)),
+               by = list(year2,label)]
+
+data <- data[!is.na(year2),]
+
 data$label <- factor(data$label,levels = c("Background","Compression","Shift"))
 
-ggplot(data, aes(x=year,y=value))+
+ggplot(data, aes(x=year2,y=value))+
   geom_col(aes(fill=label))+
   stat_summary(fun = sum,geom = "point")+
   scale_fill_manual(values = c("lightblue","navy","orange"))+
@@ -63,8 +85,10 @@ ggplot(data, aes(x=year,y=value))+
         axis.text.x = element_text(angle = 45,vjust = 1.2,hjust = 1.2))+
   guides(fill=guide_legend("Components"))+
   labs(x="Year",y="Contribution",
-       title = "Changes in Life expectancy for the US with Gompertz-Makeham Model,
-        Non-Hispanic White Male 2011-2020")
+       title = paste("Changes in Life expectancy for the US with Gompertz-Makeham Model,",
+               label[4], "\n Male 2011-2020", sep=""))
 
-ggsave("report/USA_Male_nonhis white,three_comp_2011-2020.pdf",
+ggsave(paste("report/USA_Male_", label[4], ",three_comp_2011-2020.png",sep=""),
        width = 8,height = 6)
+
+fwrite(data[,value:=round(value,3)], paste("report/table", label[4],"_Male 2011-2020.txt"))

@@ -55,7 +55,8 @@ data <- data.table(label = c(rep("Background",29),
                              B5.ex.make,
                              M5.ex.make),
                    year = c(paste(seq(1933,2017,3),"-",
-                                      seq(1936,2020,3)))
+                                      seq(1936,2020,3),
+                                  sep=""))
                    )
 
 data$label <- factor(data$label,
@@ -78,28 +79,46 @@ ggplot(data, aes(x=year,y=value))+
        Male 1933-2020")+
   guides(fill=guide_legend("Components"))
 
-ggsave("report/USA_Male,three_comp.pdf",
+ggsave("report/USA_Male,three_comp.png",
        width = 8,height = 6)
 
 
 #### Last ten years ####
 
-data2 <- data.table(label = c(rep("Background",9),
-                              rep("Compression",9),
-                              rep("Shift",9)),
-                    value = c(gomp$deltac[79:87],
-                              gomp$deltaB[79:87],
-                              gomp$deltaM[79:87]),
-                    year = c(paste(seq(2011,2019,1),"-",
-                                   seq(2012,2020,1)))
+data2 <- data.table(label = c(rep("Background",10),
+                              rep("Compression",10),
+                              rep("Shift",10)),
+                    value = c(gomp$deltac[78:87],
+                              gomp$deltaB[78:87],
+                              gomp$deltaM[78:87]),
+                    year = c(paste(seq(2010,2019,1),"-",
+                                   seq(2011,2020,1),sep=""))
 )
+
+data2 <- data2[,year2 := fcase(year %in% c("2011-2012",
+                                         "2012-2013",
+                                         "2013-2014",
+                                         "2014-2015"),
+                             year2 = "2011-2015",
+                             year %in% c("2015-2016",
+                                         "2016-2017",
+                                         "2017-2018",
+                                         "2018-2019"),
+                             year2 = "2015-2019",
+                             year == "2019-2020",
+                             year2 = "2019-2020")]
+
+data2 <- data2[,list(value=sum(value)),
+             by = list(year2,label)]
+
+data2 <- data2[!is.na(year2),]
 
 data2$label <- factor(data2$label,
                      levels = c("Background",
                                 "Compression",
                                 "Shift"))
 
-ggplot(data2, aes(x=year,y=value))+
+ggplot(data2, aes(x=year2,y=value))+
   geom_col(aes(fill=label))+
   stat_summary(fun = sum,geom = "point")+
   scale_fill_manual(values = c("lightblue","navy","orange"))+
@@ -115,5 +134,24 @@ ggplot(data2, aes(x=year,y=value))+
        Male 2011-2020")+
   guides(fill=guide_legend("Components"))
 
-ggsave("report/USA_Male,three_comp_2011-2020.pdf",
+ggsave("report/USA_Male,three_comp_2011-2020.png",
        width = 8,height = 6)
+
+
+fwrite(data2[,value:=round(value,3)],"report/table total_HMD _Male 2011-2020.txt")
+
+#### Life expectancy ####
+
+ex <- data.table(
+  e30 = gomp$ex,
+  year = seq(1933,2020)
+)
+
+ggplot(ex,aes(year,e30))+
+  geom_line()+
+  scale_x_continuous(n.breaks = 10)+
+  scale_y_continuous(n.breaks = 10)+
+  theme_classic()
+
+ggsave("report/time-trends_e30_Male.png",
+       width = 6,height = 6)
