@@ -13,6 +13,10 @@ library(DEoptim)
 # age.start and age.end are the first and last age consider for the 
 # decomposition (example: age.start=30 and age.end=100)
 
+
+
+#### Gompertz-Makeham #####
+
 Decomp.Makeham<- function(Dx,Nx, age.start, age.end){
   
   
@@ -189,6 +193,10 @@ Decomp.Makeham<- function(Dx,Nx, age.start, age.end){
                  deltaex=diff.ex, ex=ex)
   return<- results
 }
+
+
+
+#### Siler #####
 
 Decomp.Siler<- function(Dx,Nx, age.start, age.end){
   
