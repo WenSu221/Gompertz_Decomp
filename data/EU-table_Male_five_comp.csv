@@ -1,0 +1,856 @@
+label,value,year,Pop
+infant mortlaiy initial,0.0157081739027223,2009 - 2010,Switzerland
+infant mortlaiy initial,-0.0061103133716742,2010 - 2011,Switzerland
+infant mortlaiy initial,0.00422336719748573,2011 - 2012,Switzerland
+infant mortlaiy initial,-0.00753225691410332,2012 - 2013,Switzerland
+infant mortlaiy initial,-0.00263768063151173,2013 - 2014,Switzerland
+infant mortlaiy initial,-0.000376860711710193,2014 - 2015,Switzerland
+infant mortlaiy initial,0.0162930476222579,2015 - 2016,Switzerland
+infant mortlaiy initial,-0.00860533421376453,2016 - 2017,Switzerland
+infant mortlaiy initial,0.00859428295441391,2017 - 2018,Switzerland
+infant mortlaiy initial,0.0010368037191312,2018 - 2019,Switzerland
+infant mortlaiy initial,-0.00782189805260357,2019 - 2020,Switzerland
+infant mortlaiy initial,0.00523481842709237,2020 - 2021,Switzerland
+infant mortality decrease,1.83541994122744e-09,2009 - 2010,Switzerland
+infant mortality decrease,-5.54434523111025e-11,2010 - 2011,Switzerland
+infant mortality decrease,-1.80595851165112e-10,2011 - 2012,Switzerland
+infant mortality decrease,5.54385829514536e-11,2012 - 2013,Switzerland
+infant mortality decrease,-7.46399082303662e-10,2013 - 2014,Switzerland
+infant mortality decrease,3.72659253696494e-10,2014 - 2015,Switzerland
+infant mortality decrease,3.24122893874992e-10,2015 - 2016,Switzerland
+infant mortality decrease,-2.54854371594387e-10,2016 - 2017,Switzerland
+infant mortality decrease,-0.0161612444371994,2017 - 2018,Switzerland
+infant mortality decrease,0.0148385614496149,2018 - 2019,Switzerland
+infant mortality decrease,1.90559217337858e-09,2019 - 2020,Switzerland
+infant mortality decrease,6.81308580672148e-11,2020 - 2021,Switzerland
+Background,0.231689348959724,2009 - 2010,Switzerland
+Background,-0.101132060507485,2010 - 2011,Switzerland
+Background,0.0503863910963044,2011 - 2012,Switzerland
+Background,-0.037332188654401,2012 - 2013,Switzerland
+Background,0.14854151959771,2013 - 2014,Switzerland
+Background,-0.138723170402787,2014 - 2015,Switzerland
+Background,0.168306069591051,2015 - 2016,Switzerland
+Background,-0.136221217718421,2016 - 2017,Switzerland
+Background,-0.0112263823643058,2017 - 2018,Switzerland
+Background,0.0810023961619604,2018 - 2019,Switzerland
+Background,-0.154042869088037,2019 - 2020,Switzerland
+Background,0.129335410710781,2020 - 2021,Switzerland
+Compression,0.0228468277671957,2009 - 2010,Switzerland
+Compression,0.0361411037730226,2010 - 2011,Switzerland
+Compression,0.0456556199227312,2011 - 2012,Switzerland
+Compression,0.0234391933967007,2012 - 2013,Switzerland
+Compression,-0.0326885016184329,2013 - 2014,Switzerland
+Compression,0.0946870621079704,2014 - 2015,Switzerland
+Compression,-0.0259999628159479,2015 - 2016,Switzerland
+Compression,0.0299301513236723,2016 - 2017,Switzerland
+Compression,0.0133738995832537,2017 - 2018,Switzerland
+Compression,0.0163316332436571,2018 - 2019,Switzerland
+Compression,0.198149416299318,2019 - 2020,Switzerland
+Compression,-0.253576917480251,2020 - 2021,Switzerland
+Shift,0.0620365421144611,2009 - 2010,Switzerland
+Shift,0.359068287190898,2010 - 2011,Switzerland
+Shift,0.042515703782607,2011 - 2012,Switzerland
+Shift,0.117142029039798,2012 - 2013,Switzerland
+Shift,0.325255661010421,2013 - 2014,Switzerland
+Shift,-0.186443480565536,2014 - 2015,Switzerland
+Shift,0.603747246397234,2015 - 2016,Switzerland
+Shift,-0.0191911611354903,2016 - 2017,Switzerland
+Shift,0.264537988653179,2017 - 2018,Switzerland
+Shift,0.145316577318668,2018 - 2019,Switzerland
+Shift,-0.911561145874519,2019 - 2020,Switzerland
+Shift,0.743699063588103,2020 - 2021,Switzerland
+infant mortlaiy initial,0.0105170593649794,2009 - 2010,Chile
+infant mortlaiy initial,0.000422859655632733,2010 - 2011,Chile
+infant mortlaiy initial,0.00464222131710431,2011 - 2012,Chile
+infant mortlaiy initial,-0.00103936145419217,2012 - 2013,Chile
+infant mortlaiy initial,0.000508532616129586,2013 - 2014,Chile
+infant mortlaiy initial,0.00352376314929278,2014 - 2015,Chile
+infant mortlaiy initial,0.00211834372258368,2015 - 2016,Chile
+infant mortlaiy initial,-0.000303581897518896,2016 - 2017,Chile
+infant mortlaiy initial,0.00352076296368337,2017 - 2018,Chile
+infant mortlaiy initial,0.00475930554583167,2018 - 2019,Chile
+infant mortlaiy initial,0.0100065904830467,2019 - 2020,Chile
+infant mortality decrease,0.0343090833036672,2009 - 2010,Chile
+infant mortality decrease,-0.0354206381407028,2010 - 2011,Chile
+infant mortality decrease,-0.0174796783946551,2011 - 2012,Chile
+infant mortality decrease,0.00554230937869734,2012 - 2013,Chile
+infant mortality decrease,0.0474313325254927,2013 - 2014,Chile
+infant mortality decrease,-0.0312922331290822,2014 - 2015,Chile
+infant mortality decrease,0.0305892596820323,2015 - 2016,Chile
+infant mortality decrease,-8.96394446650931e-10,2016 - 2017,Chile
+infant mortality decrease,-0.000639104091551243,2017 - 2018,Chile
+infant mortality decrease,-0.00854165356411248,2018 - 2019,Chile
+infant mortality decrease,0.00830446472024301,2019 - 2020,Chile
+Background,-0.0688445332488561,2009 - 2010,Chile
+Background,0.117616578784484,2010 - 2011,Chile
+Background,0.0906259287091587,2011 - 2012,Chile
+Background,0.0369166976010556,2012 - 2013,Chile
+Background,-0.130353708962704,2013 - 2014,Chile
+Background,0.0861934021305382,2014 - 2015,Chile
+Background,-0.0895769347410222,2015 - 2016,Chile
+Background,-0.0329713938372929,2016 - 2017,Chile
+Background,-0.134144562500948,2017 - 2018,Chile
+Background,-0.116090499635645,2018 - 2019,Chile
+Background,0.305625679852764,2019 - 2020,Chile
+Compression,0.20687503560602,2009 - 2010,Chile
+Compression,-0.0452135125137516,2010 - 2011,Chile
+Compression,0.0568259951254375,2011 - 2012,Chile
+Compression,-0.0735264026452816,2012 - 2013,Chile
+Compression,0.0799755217131011,2013 - 2014,Chile
+Compression,-0.037739801488556,2014 - 2015,Chile
+Compression,0.0956934623753668,2015 - 2016,Chile
+Compression,0.116830941844899,2016 - 2017,Chile
+Compression,0.0341225168930473,2017 - 2018,Chile
+Compression,0.00508845595465758,2018 - 2019,Chile
+Compression,-0.183340492855511,2019 - 2020,Chile
+Shift,-0.331030068078535,2009 - 2010,Chile
+Shift,0.649260574744548,2010 - 2011,Chile
+Shift,-0.00347816927196823,2011 - 2012,Chile
+Shift,0.127800477052676,2012 - 2013,Chile
+Shift,0.180147039431505,2013 - 2014,Chile
+Shift,0.177760553875329,2014 - 2015,Chile
+Shift,0.340280276474152,2015 - 2016,Chile
+Shift,0.112090864644762,2016 - 2017,Chile
+Shift,0.332358837099051,2017 - 2018,Chile
+Shift,0.111370895868108,2018 - 2019,Chile
+Shift,-1.47798197995043,2019 - 2020,Chile
+infant mortlaiy initial,-0.0121447932289612,2009 - 2010,Denmark
+infant mortlaiy initial,0.00570443794906104,2010 - 2011,Denmark
+infant mortlaiy initial,-8.31889082026532e-05,2011 - 2012,Denmark
+infant mortlaiy initial,0.00468527432033077,2012 - 2013,Denmark
+infant mortlaiy initial,-0.0429677499784014,2013 - 2014,Denmark
+infant mortlaiy initial,0.0124302030248538,2014 - 2015,Denmark
+infant mortlaiy initial,0.00517000737017779,2015 - 2016,Denmark
+infant mortlaiy initial,-0.0131533915568652,2016 - 2017,Denmark
+infant mortlaiy initial,0.00228839759056623,2017 - 2018,Denmark
+infant mortlaiy initial,0.00941913233867943,2018 - 2019,Denmark
+infant mortlaiy initial,-0.000378439296655917,2019 - 2020,Denmark
+infant mortlaiy initial,0.00420829001180627,2020 - 2021,Denmark
+infant mortality decrease,-0.00325646558688811,2009 - 2010,Denmark
+infant mortality decrease,-0.0135187285593352,2010 - 2011,Denmark
+infant mortality decrease,0.0489932087788595,2011 - 2012,Denmark
+infant mortality decrease,-0.0747304664477683,2012 - 2013,Denmark
+infant mortality decrease,0.0545397937233847,2013 - 2014,Denmark
+infant mortality decrease,0.0413416742929813,2014 - 2015,Denmark
+infant mortality decrease,-0.0549971045594848,2015 - 2016,Denmark
+infant mortality decrease,0.0115333191230991,2016 - 2017,Denmark
+infant mortality decrease,0.0403968486614357,2017 - 2018,Denmark
+infant mortality decrease,0.00735092819831476,2018 - 2019,Denmark
+infant mortality decrease,-0.0232429977471096,2019 - 2020,Denmark
+infant mortality decrease,0.00803526846859127,2020 - 2021,Denmark
+Background,0.0357172541309907,2009 - 2010,Denmark
+Background,-0.027061818134268,2010 - 2011,Denmark
+Background,0.0257739026173977,2011 - 2012,Denmark
+Background,0.0356289682259914,2012 - 2013,Denmark
+Background,0.0201186459289299,2013 - 2014,Denmark
+Background,-0.0480045099090152,2014 - 2015,Denmark
+Background,-0.0192472335971846,2015 - 2016,Denmark
+Background,-0.0911237134559322,2016 - 2017,Denmark
+Background,-0.0434708559963574,2017 - 2018,Denmark
+Background,0.0590184913967612,2018 - 2019,Denmark
+Background,-0.12374514557671,2019 - 2020,Denmark
+Background,0.10503985976944,2020 - 2021,Denmark
+Compression,0.0151085065936789,2009 - 2010,Denmark
+Compression,0.0470242203730738,2010 - 2011,Denmark
+Compression,0.0608014780192687,2011 - 2012,Denmark
+Compression,0.0400095945579885,2012 - 2013,Denmark
+Compression,-0.0411149529295205,2013 - 2014,Denmark
+Compression,0.110176701517773,2014 - 2015,Denmark
+Compression,-0.0146054257775562,2015 - 2016,Denmark
+Compression,0.118694818538963,2016 - 2017,Denmark
+Compression,0.0872519437811684,2017 - 2018,Denmark
+Compression,-0.0902333298814556,2018 - 2019,Denmark
+Compression,0.12617267483562,2019 - 2020,Denmark
+Compression,0.0203625867546053,2020 - 2021,Denmark
+Shift,0.271914571779026,2009 - 2010,Denmark
+Shift,0.555147165898011,2010 - 2011,Denmark
+Shift,0.246700313593968,2011 - 2012,Denmark
+Shift,0.154515511933383,2012 - 2013,Denmark
+Shift,0.432557934531324,2013 - 2014,Denmark
+Shift,0.0595035392191261,2014 - 2015,Denmark
+Shift,0.229859635917537,2015 - 2016,Denmark
+Shift,0.141708995398056,2016 - 2017,Denmark
+Shift,-0.124791049380563,2017 - 2018,Denmark
+Shift,0.407491346214629,2018 - 2019,Denmark
+Shift,0.135698250820522,2019 - 2020,Denmark
+Shift,-0.155616094586591,2020 - 2021,Denmark
+infant mortlaiy initial,0.000497562972060933,2009 - 2010,Finland
+infant mortlaiy initial,0.000547812231822347,2010 - 2011,Finland
+infant mortlaiy initial,0.00174956205221314,2011 - 2012,Finland
+infant mortlaiy initial,0.00784009806121705,2012 - 2013,Finland
+infant mortlaiy initial,-0.00589328825211391,2013 - 2014,Finland
+infant mortlaiy initial,0.00762991995652065,2014 - 2015,Finland
+infant mortlaiy initial,-0.00559324430990407,2015 - 2016,Finland
+infant mortlaiy initial,0.0010588770773796,2016 - 2017,Finland
+infant mortlaiy initial,0.000227702620780268,2017 - 2018,Finland
+infant mortlaiy initial,-0.00198544654801116,2018 - 2019,Finland
+infant mortlaiy initial,0.00256600781818331,2019 - 2020,Finland
+infant mortlaiy initial,0.00339829148216388,2020 - 2021,Finland
+infant mortality decrease,-1.54439476051428e-09,2009 - 2010,Finland
+infant mortality decrease,-0.013635257246418,2010 - 2011,Finland
+infant mortality decrease,0.0132483626899282,2011 - 2012,Finland
+infant mortality decrease,-0.0146691801137705,2012 - 2013,Finland
+infant mortality decrease,0.0143032551248117,2013 - 2014,Finland
+infant mortality decrease,-6.70088154237231e-10,2014 - 2015,Finland
+infant mortality decrease,-1.82863798561705e-10,2015 - 2016,Finland
+infant mortality decrease,-3.00522494406987e-10,2016 - 2017,Finland
+infant mortality decrease,1.23061793671946e-09,2017 - 2018,Finland
+infant mortality decrease,-1.79878012267104e-10,2018 - 2019,Finland
+infant mortality decrease,-1.20324060466621e-09,2019 - 2020,Finland
+infant mortality decrease,1.24142097059678e-09,2020 - 2021,Finland
+Background,-0.0891939108909232,2009 - 2010,Finland
+Background,0.0411811687584567,2010 - 2011,Finland
+Background,0.0322227416616317,2011 - 2012,Finland
+Background,0.0649308236780022,2012 - 2013,Finland
+Background,-0.0343476143467058,2013 - 2014,Finland
+Background,0.110618224438112,2014 - 2015,Finland
+Background,-0.0758949781513816,2015 - 2016,Finland
+Background,-0.196392209544291,2016 - 2017,Finland
+Background,0.0691818672442103,2017 - 2018,Finland
+Background,-0.214669977479688,2018 - 2019,Finland
+Background,-0.00285068074247615,2019 - 2020,Finland
+Background,0.210563478861451,2020 - 2021,Finland
+Compression,0.0992318752268577,2009 - 2010,Finland
+Compression,0.0598036470835147,2010 - 2011,Finland
+Compression,0.0960753964807062,2011 - 2012,Finland
+Compression,-0.0157937605078666,2012 - 2013,Finland
+Compression,0.110948921463609,2013 - 2014,Finland
+Compression,0.0465411960818935,2014 - 2015,Finland
+Compression,0.0533370982205753,2015 - 2016,Finland
+Compression,0.0903897848791584,2016 - 2017,Finland
+Compression,0.000608965683105929,2017 - 2018,Finland
+Compression,0.0681714027100589,2018 - 2019,Finland
+Compression,-0.0794761844084954,2019 - 2020,Finland
+Compression,0.0665042217607251,2020 - 2021,Finland
+Shift,0.190926217878938,2009 - 2010,Finland
+Shift,0.385465709612884,2010 - 2011,Finland
+Shift,0.165960250351519,2011 - 2012,Finland
+Shift,0.275563347124592,2012 - 2013,Finland
+Shift,0.278139936751726,2013 - 2014,Finland
+Shift,0.160619683840741,2014 - 2015,Finland
+Shift,-0.0320351042162655,2015 - 2016,Finland
+Shift,0.346866227389641,2016 - 2017,Finland
+Shift,0.152716393057021,2017 - 2018,Finland
+Shift,0.387989361975478,2018 - 2019,Finland
+Shift,-0.0305618723081736,2019 - 2020,Finland
+Shift,-0.188615270130962,2020 - 2021,Finland
+infant mortlaiy initial,0.00367386707869835,2009 - 2010,France
+infant mortlaiy initial,0.00463610598394451,2010 - 2011,France
+infant mortlaiy initial,-0.00355575135157079,2011 - 2012,France
+infant mortlaiy initial,-0.00255346954361146,2012 - 2013,France
+infant mortlaiy initial,0.00211629427795113,2013 - 2014,France
+infant mortlaiy initial,-0.00300629035195745,2014 - 2015,France
+infant mortlaiy initial,-8.57477183996667e-05,2015 - 2016,France
+infant mortlaiy initial,-0.00112496600762644,2016 - 2017,France
+infant mortlaiy initial,-0.00234486839840728,2017 - 2018,France
+infant mortlaiy initial,0.0006155279345696,2018 - 2019,France
+infant mortlaiy initial,0.0056652753382085,2019 - 2020,France
+infant mortality decrease,0.0145962312166798,2009 - 2010,France
+infant mortality decrease,-0.0135336811087594,2010 - 2011,France
+infant mortality decrease,-0.0087922014408215,2011 - 2012,France
+infant mortality decrease,0.00709952200603888,2012 - 2013,France
+infant mortality decrease,-0.00738134031748308,2013 - 2014,France
+infant mortality decrease,0.00916809277649419,2014 - 2015,France
+infant mortality decrease,0.0212995341617301,2015 - 2016,France
+infant mortality decrease,-0.0240785009884833,2016 - 2017,France
+infant mortality decrease,0.00273109450317832,2017 - 2018,France
+infant mortality decrease,-0.00725021269707408,2018 - 2019,France
+infant mortality decrease,0.0279735174645322,2019 - 2020,France
+Background,0.0514844697502768,2009 - 2010,France
+Background,0.0276404917726086,2010 - 2011,France
+Background,0.0213222207131387,2011 - 2012,France
+Background,0.0269418173513629,2012 - 2013,France
+Background,0.0583376145344077,2013 - 2014,France
+Background,-0.124029026684226,2014 - 2015,France
+Background,0.0593800898198497,2015 - 2016,France
+Background,-0.0183990773515388,2016 - 2017,France
+Background,-0.0243196349639935,2017 - 2018,France
+Background,-0.0475151309977112,2018 - 2019,France
+Background,0.0290598765307392,2019 - 2020,France
+Compression,0.00224043470291792,2009 - 2010,France
+Compression,-0.00935933373370388,2010 - 2011,France
+Compression,0.119987615140081,2011 - 2012,France
+Compression,0.00379309713105537,2012 - 2013,France
+Compression,-0.0258388001295824,2013 - 2014,France
+Compression,0.110684107977844,2014 - 2015,France
+Compression,0.00406936562736306,2015 - 2016,France
+Compression,0.0531219119340886,2016 - 2017,France
+Compression,0.00219952050818727,2017 - 2018,France
+Compression,0.0270446763535862,2018 - 2019,France
+Compression,0.123691166076405,2019 - 2020,France
+Shift,0.186144854754376,2009 - 2010,France
+Shift,0.378787064472748,2010 - 2011,France
+Shift,-0.0750764482052138,2011 - 2012,France
+Shift,0.262213036484981,2012 - 2013,France
+Shift,0.484643842757283,2013 - 2014,France
+Shift,-0.247109220161883,2014 - 2015,France
+Shift,0.24656878818777,2015 - 2016,France
+Shift,0.101613074076745,2016 - 2017,France
+Shift,0.17027132038406,2017 - 2018,France
+Shift,0.238719629283531,2018 - 2019,France
+Shift,-0.76135214234934,2019 - 2020,France
+infant mortlaiy initial,0.00228748180326201,2009 - 2010,Germany
+infant mortlaiy initial,-0.00318204851879505,2010 - 2011,Germany
+infant mortlaiy initial,0.00834497475599608,2011 - 2012,Germany
+infant mortlaiy initial,-0.00289902193441172,2012 - 2013,Germany
+infant mortlaiy initial,0.00238519420816698,2013 - 2014,Germany
+infant mortlaiy initial,0.00161223934287556,2014 - 2015,Germany
+infant mortlaiy initial,-0.00833353380790968,2015 - 2016,Germany
+infant mortlaiy initial,0.00705674916948604,2016 - 2017,Germany
+infant mortlaiy initial,0.000888994305959355,2017 - 2018,Germany
+infant mortlaiy initial,-0.000462349019128292,2018 - 2019,Germany
+infant mortlaiy initial,0.00505396077868192,2019 - 2020,Germany
+infant mortality decrease,0.0134958779380566,2009 - 2010,Germany
+infant mortality decrease,-0.00118557842670659,2010 - 2011,Germany
+infant mortality decrease,-0.000324160511438695,2011 - 2012,Germany
+infant mortality decrease,-0.00710080279095991,2012 - 2013,Germany
+infant mortality decrease,0.016531462956728,2013 - 2014,Germany
+infant mortality decrease,-0.0144882301114261,2014 - 2015,Germany
+infant mortality decrease,0.000534993055799532,2015 - 2016,Germany
+infant mortality decrease,-0.000421636973123555,2016 - 2017,Germany
+infant mortality decrease,0.00424154045804139,2017 - 2018,Germany
+infant mortality decrease,-0.00356426350205494,2018 - 2019,Germany
+infant mortality decrease,0.0139914292680958,2019 - 2020,Germany
+Background,0.0319064620742946,2009 - 2010,Germany
+Background,-0.00564658207599156,2010 - 2011,Germany
+Background,0.0307717932662915,2011 - 2012,Germany
+Background,0.055400368209956,2012 - 2013,Germany
+Background,0.00729394048030366,2013 - 2014,Germany
+Background,-0.0217053560893339,2014 - 2015,Germany
+Background,0.0233304144701077,2015 - 2016,Germany
+Background,0.0436726605427728,2016 - 2017,Germany
+Background,-0.026868307828228,2017 - 2018,Germany
+Background,0.0244899025447798,2018 - 2019,Germany
+Background,0.0278854491355892,2019 - 2020,Germany
+Compression,-0.0236950496836464,2009 - 2010,Germany
+Compression,0.00991336082411722,2010 - 2011,Germany
+Compression,0.048211134821423,2011 - 2012,Germany
+Compression,0.0118928873969453,2012 - 2013,Germany
+Compression,-0.0410164926388893,2013 - 2014,Germany
+Compression,0.0395088187629972,2014 - 2015,Germany
+Compression,-0.034687631552029,2015 - 2016,Germany
+Compression,0.0628132548726541,2016 - 2017,Germany
+Compression,-0.0170373516706676,2017 - 2018,Germany
+Compression,-0.0209159618030965,2018 - 2019,Germany
+Compression,0.0357106688754416,2019 - 2020,Germany
+Shift,0.186250039153997,2009 - 2010,Germany
+Shift,0.344315614068379,2010 - 2011,Germany
+Shift,0.083176215626016,2011 - 2012,Germany
+Shift,-0.031474349450403,2012 - 2013,Germany
+Shift,0.470185692930778,2013 - 2014,Germany
+Shift,-0.326024181408491,2014 - 2015,Germany
+Shift,0.294772374828067,2015 - 2016,Germany
+Shift,0.0456972919452871,2016 - 2017,Germany
+Shift,-0.01649811818117,2017 - 2018,Germany
+Shift,0.317230371307737,2018 - 2019,Germany
+Shift,-0.331121424524111,2019 - 2020,Germany
+infant mortlaiy initial,-0.00515095910715651,2009 - 2010,Ireland
+infant mortlaiy initial,0.000737619964845356,2010 - 2011,Ireland
+infant mortlaiy initial,0.0111498036082962,2011 - 2012,Ireland
+infant mortlaiy initial,-0.0121526193668223,2012 - 2013,Ireland
+infant mortlaiy initial,0.00258832192033205,2013 - 2014,Ireland
+infant mortlaiy initial,-0.000542608303777716,2014 - 2015,Ireland
+infant mortlaiy initial,0.00566709954737922,2015 - 2016,Ireland
+infant mortlaiy initial,0.007120518211441,2016 - 2017,Ireland
+infant mortlaiy initial,-0.00498840232787897,2017 - 2018,Ireland
+infant mortlaiy initial,-0.00355651532445687,2018 - 2019,Ireland
+infant mortlaiy initial,0.0102257890804728,2019 - 2020,Ireland
+infant mortality decrease,-0.0298557735986414,2009 - 2010,Ireland
+infant mortality decrease,0.0311893771400925,2010 - 2011,Ireland
+infant mortality decrease,-1.15089309793998e-09,2011 - 2012,Ireland
+infant mortality decrease,-0.00173012919856754,2012 - 2013,Ireland
+infant mortality decrease,0.0019497151937101,2013 - 2014,Ireland
+infant mortality decrease,1.37838726531102e-10,2014 - 2015,Ireland
+infant mortality decrease,-1.77702758636605e-10,2015 - 2016,Ireland
+infant mortality decrease,-4.24289975698579e-10,2016 - 2017,Ireland
+infant mortality decrease,5.65608110402529e-10,2017 - 2018,Ireland
+infant mortality decrease,-0.0294437271208032,2018 - 2019,Ireland
+infant mortality decrease,0.0275398892818385,2019 - 2020,Ireland
+Background,0.0963099076897227,2009 - 2010,Ireland
+Background,0.0667635559273524,2010 - 2011,Ireland
+Background,0.0201296663244927,2011 - 2012,Ireland
+Background,0.175426764816605,2012 - 2013,Ireland
+Background,-0.0538647041413107,2013 - 2014,Ireland
+Background,0.171951829739156,2014 - 2015,Ireland
+Background,0.0362821159637237,2015 - 2016,Ireland
+Background,0.111647337511478,2016 - 2017,Ireland
+Background,0.0995519722765545,2017 - 2018,Ireland
+Background,-0.0845886969566297,2018 - 2019,Ireland
+Background,0.0392482358920049,2019 - 2020,Ireland
+Compression,0.0375732256747165,2009 - 2010,Ireland
+Compression,-0.0508528266195023,2010 - 2011,Ireland
+Compression,0.0966146606697355,2011 - 2012,Ireland
+Compression,-0.00895660315824242,2012 - 2013,Ireland
+Compression,-0.00194408287171577,2013 - 2014,Ireland
+Compression,0.0687117682498801,2014 - 2015,Ireland
+Compression,0.0103376427912891,2015 - 2016,Ireland
+Compression,-0.0414456118819342,2016 - 2017,Ireland
+Compression,-0.0758641499503228,2017 - 2018,Ireland
+Compression,-0.0102879904020746,2018 - 2019,Ireland
+Compression,0.0284550302791981,2019 - 2020,Ireland
+Shift,0.564504577684813,2009 - 2010,Ireland
+Shift,0.210240933631882,2010 - 2011,Ireland
+Shift,-0.0341361472648454,2011 - 2012,Ireland
+Shift,0.24953599602572,2012 - 2013,Ireland
+Shift,0.401015378201309,2013 - 2014,Ireland
+Shift,0.0405413947672746,2014 - 2015,Ireland
+Shift,0.0701463651222912,2015 - 2016,Ireland
+Shift,0.380065288208083,2016 - 2017,Ireland
+Shift,0.00941101277369754,2017 - 2018,Ireland
+Shift,0.267519512951636,2018 - 2019,Ireland
+Shift,0.0362562582274326,2019 - 2020,Ireland
+infant mortlaiy initial,0.00342787693390181,2009 - 2010,Japan
+infant mortlaiy initial,0.00516071776682727,2010 - 2011,Japan
+infant mortlaiy initial,0.000320464929216202,2011 - 2012,Japan
+infant mortlaiy initial,0.000397158312355519,2012 - 2013,Japan
+infant mortlaiy initial,0.00252902272953199,2013 - 2014,Japan
+infant mortlaiy initial,0.00203875913092745,2014 - 2015,Japan
+infant mortlaiy initial,0.00251160122862748,2015 - 2016,Japan
+infant mortlaiy initial,0.00184136320203826,2016 - 2017,Japan
+infant mortlaiy initial,-0.00169348860870355,2017 - 2018,Japan
+infant mortlaiy initial,-0.000238227935655686,2018 - 2019,Japan
+infant mortlaiy initial,0.00294264647974322,2019 - 2020,Japan
+infant mortality decrease,0.00176361021177535,2009 - 2010,Japan
+infant mortality decrease,0.000541042486875855,2010 - 2011,Japan
+infant mortality decrease,0.0084823183132751,2011 - 2012,Japan
+infant mortality decrease,-0.000990957166856781,2012 - 2013,Japan
+infant mortality decrease,-0.0049540145663521,2013 - 2014,Japan
+infant mortality decrease,-0.00295839877791392,2014 - 2015,Japan
+infant mortality decrease,0.002307999398464,2015 - 2016,Japan
+infant mortality decrease,-0.00179204213520508,2016 - 2017,Japan
+infant mortality decrease,0.00996109218505847,2017 - 2018,Japan
+infant mortality decrease,-0.00475244474535586,2018 - 2019,Japan
+infant mortality decrease,0.00970392983542724,2019 - 2020,Japan
+Background,-0.0632454232943906,2009 - 2010,Japan
+Background,-0.146402007002523,2010 - 2011,Japan
+Background,0.155820650871827,2011 - 2012,Japan
+Background,0.0364293674865236,2012 - 2013,Japan
+Background,-0.00117111623920521,2013 - 2014,Japan
+Background,0.0409674529606855,2014 - 2015,Japan
+Background,0.0146042810498848,2015 - 2016,Japan
+Background,0.010476286534122,2016 - 2017,Japan
+Background,0.0380874770689226,2017 - 2018,Japan
+Background,0.0218984848554288,2018 - 2019,Japan
+Background,-0.00676155070850073,2019 - 2020,Japan
+Compression,0.0924335478764526,2009 - 2010,Japan
+Compression,0.0288923130133692,2010 - 2011,Japan
+Compression,0.0786532135999848,2011 - 2012,Japan
+Compression,-0.000143517129695719,2012 - 2013,Japan
+Compression,0.00699606034751023,2013 - 2014,Japan
+Compression,0.0344251517662722,2014 - 2015,Japan
+Compression,0.0248265173860573,2015 - 2016,Japan
+Compression,0.0408265218099475,2016 - 2017,Japan
+Compression,-0.0121284451250684,2017 - 2018,Japan
+Compression,-0.0112724117903132,2018 - 2019,Japan
+Compression,-0.060502121955281,2019 - 2020,Japan
+Shift,-0.0513607057805851,2009 - 2010,Japan
+Shift,-0.00689212430253191,2010 - 2011,Japan
+Shift,0.265570267528857,2011 - 2012,Japan
+Shift,0.235659384058231,2012 - 2013,Japan
+Shift,0.263544074935877,2013 - 2014,Japan
+Shift,0.203612810611968,2014 - 2015,Japan
+Shift,0.159276965888185,2015 - 2016,Japan
+Shift,0.0683220857350528,2016 - 2017,Japan
+Shift,0.139148549847775,2017 - 2018,Japan
+Shift,0.144991167766673,2018 - 2019,Japan
+Shift,0.277702117408168,2019 - 2020,Japan
+infant mortlaiy initial,-0.00735396340269154,2009 - 2010,New Zealand
+infant mortlaiy initial,0.00684271898970874,2010 - 2011,New Zealand
+infant mortlaiy initial,0.0104287502883518,2011 - 2012,New Zealand
+infant mortlaiy initial,-0.004322805638882,2012 - 2013,New Zealand
+infant mortlaiy initial,-0.0165563733423228,2013 - 2014,New Zealand
+infant mortlaiy initial,0.0237171322862592,2014 - 2015,New Zealand
+infant mortlaiy initial,0.00776002569996825,2015 - 2016,New Zealand
+infant mortlaiy initial,-0.00469014259454629,2016 - 2017,New Zealand
+infant mortlaiy initial,0.00407054129537557,2017 - 2018,New Zealand
+infant mortlaiy initial,-0.012764678338168,2018 - 2019,New Zealand
+infant mortlaiy initial,0.00400307742369738,2019 - 2020,New Zealand
+infant mortlaiy initial,-0.0146163330177617,2020 - 2021,New Zealand
+infant mortality decrease,0.023814915629681,2009 - 2010,New Zealand
+infant mortality decrease,-0.0247394922165248,2010 - 2011,New Zealand
+infant mortality decrease,0.0219051117347293,2011 - 2012,New Zealand
+infant mortality decrease,-4.85396977986628e-09,2012 - 2013,New Zealand
+infant mortality decrease,5.71676455422347e-09,2013 - 2014,New Zealand
+infant mortality decrease,-2.6778751039837e-10,2014 - 2015,New Zealand
+infant mortality decrease,-5.45361082401571e-10,2015 - 2016,New Zealand
+infant mortality decrease,-0.0102715916436321,2016 - 2017,New Zealand
+infant mortality decrease,0.0103342244059593,2017 - 2018,New Zealand
+infant mortality decrease,-0.00109348631314035,2018 - 2019,New Zealand
+infant mortality decrease,0.0012039030086961,2019 - 2020,New Zealand
+infant mortality decrease,2.15205556512019e-10,2020 - 2021,New Zealand
+Background,0.198967715119867,2009 - 2010,New Zealand
+Background,-0.103564426533512,2010 - 2011,New Zealand
+Background,0.012889438900282,2011 - 2012,New Zealand
+Background,0.288707025232674,2012 - 2013,New Zealand
+Background,-0.0938439121214999,2013 - 2014,New Zealand
+Background,0.00865515934389315,2014 - 2015,New Zealand
+Background,0.0218884402695715,2015 - 2016,New Zealand
+Background,-0.16514198922603,2016 - 2017,New Zealand
+Background,0.0790290110005071,2017 - 2018,New Zealand
+Background,-0.134151965530657,2018 - 2019,New Zealand
+Background,0.316787326392131,2019 - 2020,New Zealand
+Background,-0.065626104875158,2020 - 2021,New Zealand
+Compression,-0.0254369072238445,2009 - 2010,New Zealand
+Compression,0.0825855880168652,2010 - 2011,New Zealand
+Compression,0.0302186950003497,2011 - 2012,New Zealand
+Compression,-0.0863816621010273,2012 - 2013,New Zealand
+Compression,0.115453350233324,2013 - 2014,New Zealand
+Compression,-0.0121151857783534,2014 - 2015,New Zealand
+Compression,-0.0797137839714461,2015 - 2016,New Zealand
+Compression,0.0705621387957126,2016 - 2017,New Zealand
+Compression,-0.0322929441490345,2017 - 2018,New Zealand
+Compression,-0.0338385764846705,2018 - 2019,New Zealand
+Compression,-0.0567939825660986,2019 - 2020,New Zealand
+Compression,0.0502855521692219,2020 - 2021,New Zealand
+Shift,0.411435674911821,2009 - 2010,New Zealand
+Shift,-0.0627838334488121,2010 - 2011,New Zealand
+Shift,0.12525059712213,2011 - 2012,New Zealand
+Shift,0.310699613027909,2012 - 2013,New Zealand
+Shift,-0.100361357777489,2013 - 2014,New Zealand
+Shift,0.202259133429649,2014 - 2015,New Zealand
+Shift,0.32076496140127,2015 - 2016,New Zealand
+Shift,-0.226834151223762,2016 - 2017,New Zealand
+Shift,0.213525924565442,2017 - 2018,New Zealand
+Shift,0.0955410924575169,2018 - 2019,New Zealand
+Shift,0.606627210376242,2019 - 2020,New Zealand
+Shift,-0.209001166937191,2020 - 2021,New Zealand
+infant mortlaiy initial,0.00899797984001417,2009 - 2010,Norway
+infant mortlaiy initial,0.00220678914837478,2010 - 2011,Norway
+infant mortlaiy initial,0.000617488173948031,2011 - 2012,Norway
+infant mortlaiy initial,0.00742737529679912,2012 - 2013,Norway
+infant mortlaiy initial,-0.00503264728177485,2013 - 2014,Norway
+infant mortlaiy initial,-0.000435694359721601,2014 - 2015,Norway
+infant mortlaiy initial,0.00424415078578101,2015 - 2016,Norway
+infant mortlaiy initial,0.00102064690155943,2016 - 2017,Norway
+infant mortlaiy initial,-0.00223096699726983,2017 - 2018,Norway
+infant mortlaiy initial,0.000254646471790762,2018 - 2019,Norway
+infant mortlaiy initial,0.00477308442193437,2019 - 2020,Norway
+infant mortality decrease,2.08555725445694e-09,2009 - 2010,Norway
+infant mortality decrease,-2.37584611115534e-10,2010 - 2011,Norway
+infant mortality decrease,4.50339009812276e-10,2011 - 2012,Norway
+infant mortality decrease,-6.61567212074667e-11,2012 - 2013,Norway
+infant mortality decrease,-4.99912165699887e-10,2013 - 2014,Norway
+infant mortality decrease,4.07623718352237e-10,2014 - 2015,Norway
+infant mortality decrease,2.54962953078009e-10,2015 - 2016,Norway
+infant mortality decrease,-8.84962762327916e-11,2016 - 2017,Norway
+infant mortality decrease,4.29378636705033e-11,2017 - 2018,Norway
+infant mortality decrease,-4.15569557443776e-12,2018 - 2019,Norway
+infant mortality decrease,2.24057033226024e-11,2019 - 2020,Norway
+Background,0.0950693310833011,2009 - 2010,Norway
+Background,-0.148167315291825,2010 - 2011,Norway
+Background,0.256011590831982,2011 - 2012,Norway
+Background,0.0655936522186756,2012 - 2013,Norway
+Background,-0.094939751639522,2013 - 2014,Norway
+Background,0.102659362927952,2014 - 2015,Norway
+Background,-0.020954776253056,2015 - 2016,Norway
+Background,-0.0295253722690696,2016 - 2017,Norway
+Background,-0.0301935266421257,2017 - 2018,Norway
+Background,-0.0925428110468085,2018 - 2019,Norway
+Background,0.0279825730569163,2019 - 2020,Norway
+Compression,0.0151821177354857,2009 - 2010,Norway
+Compression,0.0339059680562175,2010 - 2011,Norway
+Compression,0.0378246413717041,2011 - 2012,Norway
+Compression,-0.069482456992407,2012 - 2013,Norway
+Compression,0.106394864901443,2013 - 2014,Norway
+Compression,0.0675728070784319,2014 - 2015,Norway
+Compression,-0.0251986207616618,2015 - 2016,Norway
+Compression,0.1043615694608,2016 - 2017,Norway
+Compression,-0.0367741325440789,2017 - 2018,Norway
+Compression,0.0411838577410945,2018 - 2019,Norway
+Compression,0.00842186419777246,2019 - 2020,Norway
+Shift,0.100194201514592,2009 - 2010,Norway
+Shift,0.23588825148663,2010 - 2011,Norway
+Shift,0.111950823831248,2011 - 2012,Norway
+Shift,0.214678538329997,2012 - 2013,Norway
+Shift,0.394887461956405,2013 - 2014,Norway
+Shift,0.165098957305497,2014 - 2015,Norway
+Shift,0.255266854921102,2015 - 2016,Norway
+Shift,0.253967571340167,2016 - 2017,Norway
+Shift,0.162782129053354,2017 - 2018,Norway
+Shift,0.245843922774443,2018 - 2019,Norway
+Shift,0.226855694198588,2019 - 2020,Norway
+infant mortlaiy initial,0.0236078893733445,2009 - 2010,Portugal
+infant mortlaiy initial,-0.0125979528193076,2010 - 2011,Portugal
+infant mortlaiy initial,0.00266251886794698,2011 - 2012,Portugal
+infant mortlaiy initial,-0.000351227086554282,2012 - 2013,Portugal
+infant mortlaiy initial,-0.00313466930233442,2013 - 2014,Portugal
+infant mortlaiy initial,7.44544764583938e-05,2014 - 2015,Portugal
+infant mortlaiy initial,-0.00700707527394099,2015 - 2016,Portugal
+infant mortlaiy initial,0.0167531142864788,2016 - 2017,Portugal
+infant mortlaiy initial,-0.0162585548518855,2017 - 2018,Portugal
+infant mortlaiy initial,0.0132188266928298,2018 - 2019,Portugal
+infant mortlaiy initial,0.0147182715588965,2019 - 2020,Portugal
+infant mortlaiy initial,0.000794504612682915,2020 - 2021,Portugal
+infant mortality decrease,0.0256712427503353,2009 - 2010,Portugal
+infant mortality decrease,-0.00596093072278119,2010 - 2011,Portugal
+infant mortality decrease,-0.0155872548095595,2011 - 2012,Portugal
+infant mortality decrease,-0.00849481205602615,2012 - 2013,Portugal
+infant mortality decrease,0.0313016677248173,2013 - 2014,Portugal
+infant mortality decrease,-0.0373059270554402,2014 - 2015,Portugal
+infant mortality decrease,0.0128849628103453,2015 - 2016,Portugal
+infant mortality decrease,-0.00661562102802473,2016 - 2017,Portugal
+infant mortality decrease,-0.00970883410792774,2017 - 2018,Portugal
+infant mortality decrease,0.00934495790749013,2018 - 2019,Portugal
+infant mortality decrease,0.00544153403066913,2019 - 2020,Portugal
+infant mortality decrease,0.0177557401691972,2020 - 2021,Portugal
+Background,0.0771544648323625,2009 - 2010,Portugal
+Background,0.113744545892377,2010 - 2011,Portugal
+Background,0.0177807911090416,2011 - 2012,Portugal
+Background,0.110380129792494,2012 - 2013,Portugal
+Background,-0.00429516504373955,2013 - 2014,Portugal
+Background,0.0421088512329708,2014 - 2015,Portugal
+Background,0.106958474554075,2015 - 2016,Portugal
+Background,-0.108847000049761,2016 - 2017,Portugal
+Background,0.100166843670378,2017 - 2018,Portugal
+Background,-0.0694907390898132,2018 - 2019,Portugal
+Background,-0.0182081415299926,2019 - 2020,Portugal
+Background,-0.0480489200117496,2020 - 2021,Portugal
+Compression,0.0404784548713243,2009 - 2010,Portugal
+Compression,-0.0916765034093433,2010 - 2011,Portugal
+Compression,0.163800904200046,2011 - 2012,Portugal
+Compression,-0.0447272891811088,2012 - 2013,Portugal
+Compression,0.0306295091351201,2013 - 2014,Portugal
+Compression,0.0438612780094104,2014 - 2015,Portugal
+Compression,-0.00400270036042575,2015 - 2016,Portugal
+Compression,0.0220272793822168,2016 - 2017,Portugal
+Compression,-0.000638937575371228,2017 - 2018,Portugal
+Compression,0.00693690651284568,2018 - 2019,Portugal
+Compression,0.0420331798965621,2019 - 2020,Portugal
+Compression,0.0251489075821751,2020 - 2021,Portugal
+Shift,0.0469706995493776,2009 - 2010,Portugal
+Shift,0.526662090641635,2010 - 2011,Portugal
+Shift,-0.134688869063734,2011 - 2012,Portugal
+Shift,0.222581185255703,2012 - 2013,Portugal
+Shift,0.409519736411149,2013 - 2014,Portugal
+Shift,0.0291225123318419,2014 - 2015,Portugal
+Shift,-0.0818548268849873,2015 - 2016,Portugal
+Shift,0.349768199998527,2016 - 2017,Portugal
+Shift,-0.155694519245865,2017 - 2018,Portugal
+Shift,0.367585264940053,2018 - 2019,Portugal
+Shift,-0.775839601731525,2019 - 2020,Portugal
+Shift,0.189878456253008,2020 - 2021,Portugal
+infant mortlaiy initial,0.00101351598190746,2009 - 2010,Spain
+infant mortlaiy initial,0.000611590766743736,2010 - 2011,Spain
+infant mortlaiy initial,0.00120632834971666,2011 - 2012,Spain
+infant mortlaiy initial,0.00861459635360678,2012 - 2013,Spain
+infant mortlaiy initial,-0.00607985965521315,2013 - 2014,Spain
+infant mortlaiy initial,0.00469596007771995,2014 - 2015,Spain
+infant mortlaiy initial,-0.00458686165667898,2015 - 2016,Spain
+infant mortlaiy initial,0.002816482132614,2016 - 2017,Spain
+infant mortlaiy initial,0.00397376813307194,2017 - 2018,Spain
+infant mortlaiy initial,-0.00225127239646721,2018 - 2019,Spain
+infant mortlaiy initial,0.00329434386631523,2019 - 2020,Spain
+infant mortality decrease,-0.00466362150010271,2009 - 2010,Spain
+infant mortality decrease,-0.00237734646785954,2010 - 2011,Spain
+infant mortality decrease,0.00577962199703297,2011 - 2012,Spain
+infant mortality decrease,-0.00119239727981661,2012 - 2013,Spain
+infant mortality decrease,-0.00639533159579832,2013 - 2014,Spain
+infant mortality decrease,0.00750590931580095,2014 - 2015,Spain
+infant mortality decrease,-0.0141343084075431,2015 - 2016,Spain
+infant mortality decrease,0.00972779311432765,2016 - 2017,Spain
+infant mortality decrease,0.00178013642939026,2017 - 2018,Spain
+infant mortality decrease,-0.00179672000258299,2018 - 2019,Spain
+infant mortality decrease,-0.000213494388793969,2019 - 2020,Spain
+Background,0.097318119230954,2009 - 2010,Spain
+Background,0.0312725988919236,2010 - 2011,Spain
+Background,-0.000996780610271054,2011 - 2012,Spain
+Background,0.106954655752418,2012 - 2013,Spain
+Background,0.00538963863771955,2013 - 2014,Spain
+Background,-0.0460894840993144,2014 - 2015,Spain
+Background,0.0525065548804106,2015 - 2016,Spain
+Background,-0.0620520273185414,2016 - 2017,Spain
+Background,-0.00524866695490683,2017 - 2018,Spain
+Background,0.043061136487243,2018 - 2019,Spain
+Background,-0.0021672278459738,2019 - 2020,Spain
+Compression,0.0155432007948472,2009 - 2010,Spain
+Compression,0.0269179475545146,2010 - 2011,Spain
+Compression,0.0954526909580198,2011 - 2012,Spain
+Compression,-0.0677704285613332,2012 - 2013,Spain
+Compression,0.0155972766550636,2013 - 2014,Spain
+Compression,0.117934079737168,2014 - 2015,Spain
+Compression,-0.0656401870986955,2015 - 2016,Spain
+Compression,0.0872881261832868,2016 - 2017,Spain
+Compression,-0.0263643260456052,2017 - 2018,Spain
+Compression,-0.0343030518287797,2018 - 2019,Spain
+Compression,0.106062079288119,2019 - 2020,Spain
+Shift,0.302851071860403,2009 - 2010,Spain
+Shift,0.186950695805341,2010 - 2011,Spain
+Shift,-0.0420757075162693,2011 - 2012,Spain
+Shift,0.503670820042251,2012 - 2013,Spain
+Shift,0.190222508261337,2013 - 2014,Spain
+Shift,-0.293896367821166,2014 - 2015,Spain
+Shift,0.41630991862339,2015 - 2016,Spain
+Shift,0.0192672744501258,2016 - 2017,Spain
+Shift,0.116521221618444,2017 - 2018,Spain
+Shift,0.397497109433014,2018 - 2019,Spain
+Shift,-1.37461598184272,2019 - 2020,Spain
+infant mortlaiy initial,-0.00247122306442932,2009 - 2010,Sweden
+infant mortlaiy initial,0.00680483979325597,2010 - 2011,Sweden
+infant mortlaiy initial,-0.00882236467581086,2011 - 2012,Sweden
+infant mortlaiy initial,0.000470030013885589,2012 - 2013,Sweden
+infant mortlaiy initial,0.00394875207014791,2013 - 2014,Sweden
+infant mortlaiy initial,-0.00261597454709969,2014 - 2015,Sweden
+infant mortlaiy initial,0.0022445036138845,2015 - 2016,Sweden
+infant mortlaiy initial,0.00301189062878711,2016 - 2017,Sweden
+infant mortlaiy initial,0.00234908647495163,2017 - 2018,Sweden
+infant mortlaiy initial,-0.000326078787074929,2018 - 2019,Sweden
+infant mortlaiy initial,-0.00577277513329605,2019 - 2020,Sweden
+infant mortlaiy initial,0.00782176079849352,2020 - 2021,Sweden
+infant mortality decrease,0.0218326854430886,2009 - 2010,Sweden
+infant mortality decrease,-2.78444627418421e-10,2010 - 2011,Sweden
+infant mortality decrease,3.28966971760983e-10,2011 - 2012,Sweden
+infant mortality decrease,-1.92806267689034e-10,2012 - 2013,Sweden
+infant mortality decrease,1.89082947428711e-10,2013 - 2014,Sweden
+infant mortality decrease,-3.46277941829791e-10,2014 - 2015,Sweden
+infant mortality decrease,2.46591622225096e-10,2015 - 2016,Sweden
+infant mortality decrease,3.97428018924767e-12,2016 - 2017,Sweden
+infant mortality decrease,-6.66782099949654e-11,2017 - 2018,Sweden
+infant mortality decrease,1.28093091358803e-10,2018 - 2019,Sweden
+infant mortality decrease,-5.51489258650443e-10,2019 - 2020,Sweden
+infant mortality decrease,4.21870451215313e-10,2020 - 2021,Sweden
+Background,0.115237718267151,2009 - 2010,Sweden
+Background,-0.0185435494998394,2010 - 2011,Sweden
+Background,-0.0567251361737845,2011 - 2012,Sweden
+Background,-0.0304872987938014,2012 - 2013,Sweden
+Background,0.015666215084179,2013 - 2014,Sweden
+Background,-0.0946775847909161,2014 - 2015,Sweden
+Background,0.106167705305363,2015 - 2016,Sweden
+Background,-0.190382712369759,2016 - 2017,Sweden
+Background,0.111174041475426,2017 - 2018,Sweden
+Background,0.0859295399964599,2018 - 2019,Sweden
+Background,-0.0312554924466025,2019 - 2020,Sweden
+Background,0.075144230959854,2020 - 2021,Sweden
+Compression,-0.0126960311687787,2009 - 2010,Sweden
+Compression,0.0200479604617042,2010 - 2011,Sweden
+Compression,0.107292764708786,2011 - 2012,Sweden
+Compression,-0.0336035007907867,2012 - 2013,Sweden
+Compression,-0.0218438863713262,2013 - 2014,Sweden
+Compression,0.0645199414649143,2014 - 2015,Sweden
+Compression,-0.0276451316740854,2015 - 2016,Sweden
+Compression,0.137438057796069,2016 - 2017,Sweden
+Compression,-0.0626626879488013,2017 - 2018,Sweden
+Compression,0.00983766777371952,2018 - 2019,Sweden
+Compression,0.0921341491846309,2019 - 2020,Sweden
+Compression,-0.149535460748351,2020 - 2021,Sweden
+Shift,0.0840709182349418,2009 - 2010,Sweden
+Shift,0.233175652434367,2010 - 2011,Sweden
+Shift,0.0728971295863952,2011 - 2012,Sweden
+Shift,0.289121756957366,2012 - 2013,Sweden
+Shift,0.23852719950144,2013 - 2014,Sweden
+Shift,0.012770187008302,2014 - 2015,Sweden
+Shift,0.172318740830785,2015 - 2016,Sweden
+Shift,0.180486879929294,2016 - 2017,Sweden
+Shift,0.0424149567414852,2017 - 2018,Sweden
+Shift,0.471318188964497,2018 - 2019,Sweden
+Shift,-0.756155396914746,2019 - 2020,Sweden
+Shift,0.658236800133113,2020 - 2021,Sweden
+infant mortlaiy initial,0.00578596856587536,2009 - 2010,United Kingdom
+infant mortlaiy initial,-0.00478846715647215,2010 - 2011,United Kingdom
+infant mortlaiy initial,0.00677269876100965,2011 - 2012,United Kingdom
+infant mortlaiy initial,0.0062364455081224,2012 - 2013,United Kingdom
+infant mortlaiy initial,0.00323195965073016,2013 - 2014,United Kingdom
+infant mortlaiy initial,-0.00465696880956248,2014 - 2015,United Kingdom
+infant mortlaiy initial,0.00348287114302755,2015 - 2016,United Kingdom
+infant mortlaiy initial,-0.00160730008959752,2016 - 2017,United Kingdom
+infant mortlaiy initial,0.00222625854933603,2017 - 2018,United Kingdom
+infant mortlaiy initial,-0.00281852944588004,2018 - 2019,United Kingdom
+infant mortlaiy initial,0.00223335828908158,2019 - 2020,United Kingdom
+infant mortality decrease,-0.0163619780078805,2009 - 2010,United Kingdom
+infant mortality decrease,-0.0139652870727058,2010 - 2011,United Kingdom
+infant mortality decrease,0.00727558743591311,2011 - 2012,United Kingdom
+infant mortality decrease,-0.00258907090101977,2012 - 2013,United Kingdom
+infant mortality decrease,-0.00544210265537402,2013 - 2014,United Kingdom
+infant mortality decrease,0.02227663383424,2014 - 2015,United Kingdom
+infant mortality decrease,0.00570099990227437,2015 - 2016,United Kingdom
+infant mortality decrease,2.50970503622596e-09,2016 - 2017,United Kingdom
+infant mortality decrease,4.71678364710355e-10,2017 - 2018,United Kingdom
+infant mortality decrease,-1.46821411424892e-09,2018 - 2019,United Kingdom
+infant mortality decrease,1.9781376056706e-09,2019 - 2020,United Kingdom
+Background,0.108023539920474,2009 - 2010,United Kingdom
+Background,0.0569268494088154,2010 - 2011,United Kingdom
+Background,-0.0159563753988197,2011 - 2012,United Kingdom
+Background,0.0162982637696524,2012 - 2013,United Kingdom
+Background,-0.00893364569823251,2013 - 2014,United Kingdom
+Background,-0.0438790076555149,2014 - 2015,United Kingdom
+Background,0.0172684953660613,2015 - 2016,United Kingdom
+Background,0.033396107343379,2016 - 2017,United Kingdom
+Background,-0.0841546270980378,2017 - 2018,United Kingdom
+Background,0.0520874649918659,2018 - 2019,United Kingdom
+Background,0.130167140514348,2019 - 2020,United Kingdom
+Compression,-0.0024550616911874,2009 - 2010,United Kingdom
+Compression,0.0117993154966176,2010 - 2011,United Kingdom
+Compression,0.107309122414529,2011 - 2012,United Kingdom
+Compression,-0.0253571156485482,2012 - 2013,United Kingdom
+Compression,-0.0269780449872929,2013 - 2014,United Kingdom
+Compression,0.0748956651564941,2014 - 2015,United Kingdom
+Compression,-0.0801276108942914,2015 - 2016,United Kingdom
+Compression,0.0329668151438084,2016 - 2017,United Kingdom
+Compression,-0.0326123634178511,2017 - 2018,United Kingdom
+Compression,-0.0291857003640967,2018 - 2019,United Kingdom
+Compression,-0.0183423340281792,2019 - 2020,United Kingdom
+Shift,0.214600841516008,2009 - 2010,United Kingdom
+Shift,0.38411961372405,2010 - 2011,United Kingdom
+Shift,0.0555818255776059,2011 - 2012,United Kingdom
+Shift,0.0309916277366482,2012 - 2013,United Kingdom
+Shift,0.279701137362611,2013 - 2014,United Kingdom
+Shift,-0.213777964027077,2014 - 2015,United Kingdom
+Shift,0.206642830297729,2015 - 2016,United Kingdom
+Shift,0.0382694076581038,2016 - 2017,United Kingdom
+Shift,0.0741598199607586,2017 - 2018,United Kingdom
+Shift,0.305854709370705,2018 - 2019,United Kingdom
+Shift,-1.29058693291569,2019 - 2020,United Kingdom
+infant mortlaiy initial,0.00565357665026587,2009 - 2010,United States
+infant mortlaiy initial,0.00254391843455112,2010 - 2011,United States
+infant mortlaiy initial,0.000530810651072485,2011 - 2012,United States
+infant mortlaiy initial,0.000217625730365591,2012 - 2013,United States
+infant mortlaiy initial,0.00205440883597839,2013 - 2014,United States
+infant mortlaiy initial,0.000278757295668186,2014 - 2015,United States
+infant mortlaiy initial,0.00103356669306229,2015 - 2016,United States
+infant mortlaiy initial,0.00155549609210838,2016 - 2017,United States
+infant mortlaiy initial,0.000732844840501482,2017 - 2018,United States
+infant mortlaiy initial,0.00112480478493803,2018 - 2019,United States
+infant mortlaiy initial,0.00547778773742607,2019 - 2020,United States
+infant mortality decrease,0.00426463754216992,2009 - 2010,United States
+infant mortality decrease,2.41344853098986e-08,2010 - 2011,United States
+infant mortality decrease,-4.08609312114649e-08,2011 - 2012,United States
+infant mortality decrease,-0.00758790491300445,2012 - 2013,United States
+infant mortality decrease,0.00748435477692481,2013 - 2014,United States
+infant mortality decrease,-1.06452228058312e-09,2014 - 2015,United States
+infant mortality decrease,-4.22540950142118e-09,2015 - 2016,United States
+infant mortality decrease,5.45148316277986e-09,2016 - 2017,United States
+infant mortality decrease,-4.02169407452844e-09,2017 - 2018,United States
+infant mortality decrease,4.22269212011748e-09,2018 - 2019,United States
+infant mortality decrease,-6.6235890652222e-10,2019 - 2020,United States
+Background,-0.00556719368884277,2009 - 2010,United States
+Background,-0.0355430054576183,2010 - 2011,United States
+Background,0.0244718756240797,2011 - 2012,United States
+Background,0.0395464759705546,2012 - 2013,United States
+Background,0.00147796970662718,2013 - 2014,United States
+Background,-0.168135967662873,2014 - 2015,United States
+Background,-0.16090829105347,2015 - 2016,United States
+Background,-0.0757864842358787,2016 - 2017,United States
+Background,0.165796422249203,2017 - 2018,United States
+Background,-0.00972825027516136,2018 - 2019,United States
+Background,-0.270288008965648,2019 - 2020,United States
+Compression,0.0658002690391017,2009 - 2010,United States
+Compression,0.000182835674330886,2010 - 2011,United States
+Compression,-0.017297146429906,2011 - 2012,United States
+Compression,-0.0162927396773711,2012 - 2013,United States
+Compression,-0.0528413550526947,2013 - 2014,United States
+Compression,0.0137319598120464,2014 - 2015,United States
+Compression,-0.0851332858411643,2015 - 2016,United States
+Compression,0.0183874269981156,2016 - 2017,United States
+Compression,-0.0585660735356097,2017 - 2018,United States
+Compression,-0.0128996255742412,2018 - 2019,United States
+Compression,-0.0637407895931208,2019 - 2020,United States
+Shift,0.133942834901713,2009 - 2010,United States
+Shift,0.0979456419196876,2010 - 2011,United States
+Shift,0.116820846622459,2011 - 2012,United States
+Shift,-0.0112689129730176,2012 - 2013,United States
+Shift,0.108411557294089,2013 - 2014,United States
+Shift,-0.0201887335431619,2014 - 2015,United States
+Shift,0.1496412305361,2015 - 2016,United States
+Shift,0.00227158300693691,2016 - 2017,United States
+Shift,0.0665553021706801,2017 - 2018,United States
+Shift,0.14804645071494,2018 - 2019,United States
+Shift,-1.82804291728833,2019 - 2020,United States

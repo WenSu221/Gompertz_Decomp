@@ -109,8 +109,8 @@ data2 <- data.table(label = c(rep("infant mortlaiy initial",9),
                               gomp$deltac[79:87],
                               gomp$deltaB[79:87],
                               gomp$deltaM[79:87]),
-                    year = c(paste(seq(2011,2019,1),"-",
-                                   seq(2012,2020,1)))
+                    year = c(paste(seq(2010,2019,1),"-",
+                                   seq(2011,2020,1)))
 )
 
 data2$label <- factor(data2$label,

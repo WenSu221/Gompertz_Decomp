@@ -1,0 +1,481 @@
+label,value,year,Pop
+infant mortlaiy initial,0.913899889973662,1959 - 1964,Bulgaria
+infant mortlaiy initial,0.130485051464226,1964 - 1969,Bulgaria
+infant mortlaiy initial,0.0886356665146885,1969 - 1974,Bulgaria
+infant mortlaiy initial,0.179026084211566,1974 - 1979,Bulgaria
+infant mortlaiy initial,0.125239010157787,1979 - 1984,Bulgaria
+infant mortlaiy initial,0.0650452251336501,1984 - 1989,Bulgaria
+infant mortlaiy initial,-0.0846385738799939,1989 - 1994,Bulgaria
+infant mortlaiy initial,0.075472925703247,1994 - 1999,Bulgaria
+infant mortlaiy initial,0.066471064525002,1999 - 2004,Bulgaria
+infant mortlaiy initial,0.060843809800732,2004 - 2009,Bulgaria
+infant mortlaiy initial,0.0193058201763926,2009 - 2014,Bulgaria
+infant mortlaiy initial,0.0555005797909168,2014 - 2019,Bulgaria
+infant mortality decrease,0.30669439837928,1959 - 1964,Bulgaria
+infant mortality decrease,0.155066857687723,1964 - 1969,Bulgaria
+infant mortality decrease,0.0747543535706104,1969 - 1974,Bulgaria
+infant mortality decrease,-0.0891551577131416,1974 - 1979,Bulgaria
+infant mortality decrease,-0.072727162410233,1979 - 1984,Bulgaria
+infant mortality decrease,0.0415206940172159,1984 - 1989,Bulgaria
+infant mortality decrease,0.0358959472035627,1989 - 1994,Bulgaria
+infant mortality decrease,-0.000526474362265777,1994 - 1999,Bulgaria
+infant mortality decrease,0.00819092476845617,1999 - 2004,Bulgaria
+infant mortality decrease,0.0137565409226549,2004 - 2009,Bulgaria
+infant mortality decrease,0.0495624129295956,2009 - 2014,Bulgaria
+infant mortality decrease,0.0416556789222505,2014 - 2019,Bulgaria
+Background,0.454285696886941,1959 - 1964,Bulgaria
+Background,0.154829294705357,1964 - 1969,Bulgaria
+Background,0.151135066520484,1969 - 1974,Bulgaria
+Background,-0.0785769418598208,1974 - 1979,Bulgaria
+Background,0.00601482544974129,1979 - 1984,Bulgaria
+Background,-0.0767167631525654,1984 - 1989,Bulgaria
+Background,-0.0162849303423423,1989 - 1994,Bulgaria
+Background,0.00732548420238766,1994 - 1999,Bulgaria
+Background,0.0691901390746963,1999 - 2004,Bulgaria
+Background,0.0673131842398652,2004 - 2009,Bulgaria
+Background,-0.00618713909499202,2009 - 2014,Bulgaria
+Background,-0.0310819964097596,2014 - 2019,Bulgaria
+Compression,0.165232497851926,1959 - 1964,Bulgaria
+Compression,0.10263905126232,1964 - 1969,Bulgaria
+Compression,0.045920531461228,1969 - 1974,Bulgaria
+Compression,0.0509126029763632,1974 - 1979,Bulgaria
+Compression,0.0258996712510916,1979 - 1984,Bulgaria
+Compression,0.149342831565708,1984 - 1989,Bulgaria
+Compression,-0.0989494946573914,1989 - 1994,Bulgaria
+Compression,0.082619026848555,1994 - 1999,Bulgaria
+Compression,0.0311919859988819,1999 - 2004,Bulgaria
+Compression,0.0233866496464757,2004 - 2009,Bulgaria
+Compression,0.0330088235675404,2009 - 2014,Bulgaria
+Compression,0.015538482535752,2014 - 2019,Bulgaria
+Shift,2.07418878149706,1959 - 1964,Bulgaria
+Shift,-0.823501436599694,1964 - 1969,Bulgaria
+Shift,0.342411889432079,1969 - 1974,Bulgaria
+Shift,-0.007489590278645,1974 - 1979,Bulgaria
+Shift,0.195735650193559,1979 - 1984,Bulgaria
+Shift,0.198276766788098,1984 - 1989,Bulgaria
+Shift,0.217347704963966,1989 - 1994,Bulgaria
+Shift,0.0325483291737011,1994 - 1999,Bulgaria
+Shift,0.850444519563805,1999 - 2004,Bulgaria
+Shift,0.782154271192152,2004 - 2009,Bulgaria
+Shift,0.554987820778054,2009 - 2014,Bulgaria
+Shift,0.624588106776138,2014 - 2019,Bulgaria
+infant mortlaiy initial,0.0311426386898907,1959 - 1964,Czechia
+infant mortlaiy initial,-0.0802103674680563,1964 - 1969,Czechia
+infant mortlaiy initial,0.046756448717088,1969 - 1974,Czechia
+infant mortlaiy initial,0.085956159842559,1974 - 1979,Czechia
+infant mortlaiy initial,0.0312795953933351,1979 - 1984,Czechia
+infant mortlaiy initial,0.0959293066397119,1984 - 1989,Czechia
+infant mortlaiy initial,0.0420089292228742,1989 - 1994,Czechia
+infant mortlaiy initial,0.0574802387945001,1994 - 1999,Czechia
+infant mortlaiy initial,0.0253627074339227,1999 - 2004,Czechia
+infant mortlaiy initial,0.0195423023331294,2004 - 2009,Czechia
+infant mortlaiy initial,0.0111932054663304,2009 - 2014,Czechia
+infant mortlaiy initial,-0.00270078711054877,2014 - 2019,Czechia
+infant mortality decrease,0.120434345977285,1959 - 1964,Czechia
+infant mortality decrease,0.0641928075581679,1964 - 1969,Czechia
+infant mortality decrease,0.0877826940482721,1969 - 1974,Czechia
+infant mortality decrease,-0.0410888962579661,1974 - 1979,Czechia
+infant mortality decrease,0.0197224028172899,1979 - 1984,Czechia
+infant mortality decrease,-0.0248985939589015,1984 - 1989,Czechia
+infant mortality decrease,-0.0107516312573393,1989 - 1994,Czechia
+infant mortality decrease,0.0143639047590584,1994 - 1999,Czechia
+infant mortality decrease,-0.0214767209007741,1999 - 2004,Czechia
+infant mortality decrease,0.0200552383457506,2004 - 2009,Czechia
+infant mortality decrease,0.00659072979088479,2009 - 2014,Czechia
+infant mortality decrease,0.0132334913572202,2014 - 2019,Czechia
+Background,0.100155796968739,1959 - 1964,Czechia
+Background,-0.0497902860682187,1964 - 1969,Czechia
+Background,0.179624746062131,1969 - 1974,Czechia
+Background,0.0980156566517416,1974 - 1979,Czechia
+Background,0.0992100879146227,1979 - 1984,Czechia
+Background,0.0965769516320578,1984 - 1989,Czechia
+Background,-0.164895763274914,1989 - 1994,Czechia
+Background,0.161886310723364,1994 - 1999,Czechia
+Background,0.0749494082088101,1999 - 2004,Czechia
+Background,-0.096504842035718,2004 - 2009,Czechia
+Background,0.0820375011475605,2009 - 2014,Czechia
+Background,-0.132914575978447,2014 - 2019,Czechia
+Compression,-0.0244299408339233,1959 - 1964,Czechia
+Compression,-0.0435097653219132,1964 - 1969,Czechia
+Compression,0.0707824706815781,1969 - 1974,Czechia
+Compression,-0.0310654894713558,1974 - 1979,Czechia
+Compression,0.0212670558964025,1979 - 1984,Czechia
+Compression,-0.0156318901199354,1984 - 1989,Czechia
+Compression,0.086742476154901,1989 - 1994,Czechia
+Compression,0.0618383334766083,1994 - 1999,Czechia
+Compression,0.0287522487873261,1999 - 2004,Czechia
+Compression,0.111529928270824,2004 - 2009,Czechia
+Compression,0.0613280265995415,2009 - 2014,Czechia
+Compression,0.0521010324018806,2014 - 2019,Czechia
+Shift,0.720256399869563,1959 - 1964,Czechia
+Shift,-0.348350962856272,1964 - 1969,Czechia
+Shift,0.103124607678343,1969 - 1974,Czechia
+Shift,0.39275106447608,1974 - 1979,Czechia
+Shift,-0.0863519916585423,1979 - 1984,Czechia
+Shift,0.577770119532097,1984 - 1989,Czechia
+Shift,1.15775771639185,1989 - 1994,Czechia
+Shift,1.05564881325572,1994 - 1999,Czechia
+Shift,0.97489874988781,1999 - 2004,Czechia
+Shift,0.962453611797483,2004 - 2009,Czechia
+Shift,1.25667897408122,2009 - 2014,Czechia
+Shift,0.50153918906894,2014 - 2019,Czechia
+infant mortlaiy initial,0.125222197648016,1959 - 1964,Estonia
+infant mortlaiy initial,0.345392710588172,1964 - 1969,Estonia
+infant mortlaiy initial,-0.0599450782892732,1969 - 1974,Estonia
+infant mortlaiy initial,0.0321567605555837,1974 - 1979,Estonia
+infant mortlaiy initial,0.1551443934892,1979 - 1984,Estonia
+infant mortlaiy initial,-0.0239178681749631,1984 - 1989,Estonia
+infant mortlaiy initial,-0.0294725619451769,1989 - 1994,Estonia
+infant mortlaiy initial,0.132563914721461,1994 - 1999,Estonia
+infant mortlaiy initial,0.0336124445403445,1999 - 2004,Estonia
+infant mortlaiy initial,0.0978571050695652,2004 - 2009,Estonia
+infant mortlaiy initial,0.0269688441550189,2009 - 2014,Estonia
+infant mortlaiy initial,0.0222399730300288,2014 - 2019,Estonia
+infant mortality decrease,-0.0452637509662347,1959 - 1964,Estonia
+infant mortality decrease,-0.133701925254991,1964 - 1969,Estonia
+infant mortality decrease,0.0889234245856663,1969 - 1974,Estonia
+infant mortality decrease,-0.0379944080626552,1974 - 1979,Estonia
+infant mortality decrease,-0.142948445531965,1979 - 1984,Estonia
+infant mortality decrease,0.125459794793645,1984 - 1989,Estonia
+infant mortality decrease,0.204467389812312,1989 - 1994,Estonia
+infant mortality decrease,-0.227360831873482,1994 - 1999,Estonia
+infant mortality decrease,0.0969799878718607,1999 - 2004,Estonia
+infant mortality decrease,-0.00840665658757843,2004 - 2009,Estonia
+infant mortality decrease,0.0146908416647767,2009 - 2014,Estonia
+infant mortality decrease,-0.0003144903182056,2014 - 2019,Estonia
+Background,0.963431967623891,1959 - 1964,Estonia
+Background,-0.0398164756863403,1964 - 1969,Estonia
+Background,0.135362719711597,1969 - 1974,Estonia
+Background,0.00676788875952496,1974 - 1979,Estonia
+Background,-0.0683724871289138,1979 - 1984,Estonia
+Background,0.0258559638800865,1984 - 1989,Estonia
+Background,-0.501957742938754,1989 - 1994,Estonia
+Background,0.787266112043106,1994 - 1999,Estonia
+Background,0.212311421636924,1999 - 2004,Estonia
+Background,-0.224794355007595,2004 - 2009,Estonia
+Background,-0.0757727024153278,2009 - 2014,Estonia
+Background,0.119194685506599,2014 - 2019,Estonia
+Compression,-0.056250428237899,1959 - 1964,Estonia
+Compression,0.17929896300169,1964 - 1969,Estonia
+Compression,-0.174938415230412,1969 - 1974,Estonia
+Compression,-0.113075616904652,1974 - 1979,Estonia
+Compression,-0.020195835854299,1979 - 1984,Estonia
+Compression,-0.0562816899913256,1984 - 1989,Estonia
+Compression,-0.36670094601403,1989 - 1994,Estonia
+Compression,0.211568277185575,1994 - 1999,Estonia
+Compression,0.289154103749447,1999 - 2004,Estonia
+Compression,0.286330731243915,2004 - 2009,Estonia
+Compression,0.177868015368715,2009 - 2014,Estonia
+Compression,0.0702006555757548,2014 - 2019,Estonia
+Shift,0.916215908321397,1959 - 1964,Estonia
+Shift,-0.506908380033865,1964 - 1969,Estonia
+Shift,0.778238360800235,1969 - 1974,Estonia
+Shift,-0.841666235918344,1974 - 1979,Estonia
+Shift,-0.0710685071242237,1979 - 1984,Estonia
+Shift,0.623960092151398,1984 - 1989,Estonia
+Shift,-1.01145361132079,1989 - 1994,Estonia
+Shift,1.95861689043601,1994 - 1999,Estonia
+Shift,1.1567112254088,1999 - 2004,Estonia
+Shift,1.62527594551937,2004 - 2009,Estonia
+Shift,1.2621008497702,2009 - 2014,Estonia
+Shift,0.882342589250023,2014 - 2019,Estonia
+infant mortlaiy initial,0.303626530889232,1959 - 1964,Hungary
+infant mortlaiy initial,0.0644016303712075,1964 - 1969,Hungary
+infant mortlaiy initial,-0.0230221215392548,1969 - 1974,Hungary
+infant mortlaiy initial,0.298917203662597,1974 - 1979,Hungary
+infant mortlaiy initial,0.0517740740050363,1979 - 1984,Hungary
+infant mortlaiy initial,0.0804895980401257,1984 - 1989,Hungary
+infant mortlaiy initial,0.0969153670218294,1989 - 1994,Hungary
+infant mortlaiy initial,0.0688492250409768,1994 - 1999,Hungary
+infant mortlaiy initial,0.0357388816326486,1999 - 2004,Hungary
+infant mortlaiy initial,0.0259702830441397,2004 - 2009,Hungary
+infant mortlaiy initial,0.0184998293450234,2009 - 2014,Hungary
+infant mortlaiy initial,0.0325567052795617,2014 - 2019,Hungary
+infant mortality decrease,0.0177121876580809,1959 - 1964,Hungary
+infant mortality decrease,0.15382193754827,1964 - 1969,Hungary
+infant mortality decrease,0.0681010572239967,1969 - 1974,Hungary
+infant mortality decrease,-0.020694652394219,1974 - 1979,Hungary
+infant mortality decrease,-0.00599705093652275,1979 - 1984,Hungary
+infant mortality decrease,0.019503162473375,1984 - 1989,Hungary
+infant mortality decrease,-0.0630552624686434,1989 - 1994,Hungary
+infant mortality decrease,0.0497950633052656,1994 - 1999,Hungary
+infant mortality decrease,-0.0227635902132931,1999 - 2004,Hungary
+infant mortality decrease,0.00318846214646784,2004 - 2009,Hungary
+infant mortality decrease,0.00238229575633437,2009 - 2014,Hungary
+infant mortality decrease,-0.00509423891368752,2014 - 2019,Hungary
+Background,0.406805920047259,1959 - 1964,Hungary
+Background,0.14387493078933,1964 - 1969,Hungary
+Background,-0.109183266480333,1969 - 1974,Hungary
+Background,0.330147338733614,1974 - 1979,Hungary
+Background,0.0363087560442785,1979 - 1984,Hungary
+Background,-0.0236535986011124,1984 - 1989,Hungary
+Background,0.255165555873643,1989 - 1994,Hungary
+Background,-0.00701961056215005,1994 - 1999,Hungary
+Background,0.166665312938205,1999 - 2004,Hungary
+Background,0.0110088151695026,2004 - 2009,Hungary
+Background,0.111416055845409,2009 - 2014,Hungary
+Background,-0.0645827051502032,2014 - 2019,Hungary
+Compression,0.0631246457191001,1959 - 1964,Hungary
+Compression,-0.0826847369737894,1964 - 1969,Hungary
+Compression,-0.0486838659758634,1969 - 1974,Hungary
+Compression,-0.223617164964821,1974 - 1979,Hungary
+Compression,-0.111603451703662,1979 - 1984,Hungary
+Compression,-0.0980009295234424,1984 - 1989,Hungary
+Compression,-0.146636638778655,1989 - 1994,Hungary
+Compression,0.213492383811354,1994 - 1999,Hungary
+Compression,0.0183848898641561,1999 - 2004,Hungary
+Compression,0.0625533450394478,2004 - 2009,Hungary
+Compression,0.143643238250464,2009 - 2014,Hungary
+Compression,0.0784235435696508,2014 - 2019,Hungary
+Shift,1.13352680006529,1959 - 1964,Hungary
+Shift,-0.154365605144346,1964 - 1969,Hungary
+Shift,0.407653760417517,1969 - 1974,Hungary
+Shift,-0.193553260594055,1974 - 1979,Hungary
+Shift,-0.164736597994947,1979 - 1984,Hungary
+Shift,0.436069587821595,1984 - 1989,Hungary
+Shift,0.351818442069505,1989 - 1994,Hungary
+Shift,0.6237804164015,1994 - 1999,Hungary
+Shift,1.33983896097361,1999 - 2004,Hungary
+Shift,0.858895881489389,2004 - 2009,Hungary
+Shift,0.801301491653524,2009 - 2014,Hungary
+Shift,0.340886099088354,2014 - 2019,Hungary
+infant mortlaiy initial,0.219127487265705,1959 - 1964,Latvia
+infant mortlaiy initial,0.110547545543749,1964 - 1969,Latvia
+infant mortlaiy initial,-0.0574637840794314,1969 - 1974,Latvia
+infant mortlaiy initial,0.00176328781469316,1974 - 1979,Latvia
+infant mortlaiy initial,0.175075063839167,1979 - 1984,Latvia
+infant mortlaiy initial,0.101698455717557,1984 - 1989,Latvia
+infant mortlaiy initial,-0.17710377809922,1989 - 1994,Latvia
+infant mortlaiy initial,0.0321514706476333,1994 - 1999,Latvia
+infant mortlaiy initial,0.0584107800779495,1999 - 2004,Latvia
+infant mortlaiy initial,0.0427435458699405,2004 - 2009,Latvia
+infant mortlaiy initial,0.0677786477483949,2009 - 2014,Latvia
+infant mortlaiy initial,0.0053460989403378,2014 - 2019,Latvia
+infant mortality decrease,-0.0740300626887445,1959 - 1964,Latvia
+infant mortality decrease,0.0663761670340422,1964 - 1969,Latvia
+infant mortality decrease,-0.026915649126953,1969 - 1974,Latvia
+infant mortality decrease,-0.142420552521528,1974 - 1979,Latvia
+infant mortality decrease,0.0008595278925153,1979 - 1984,Latvia
+infant mortality decrease,0.0486752301546356,1984 - 1989,Latvia
+infant mortality decrease,0.102720835618144,1989 - 1994,Latvia
+infant mortality decrease,0.0862632375046023,1994 - 1999,Latvia
+infant mortality decrease,-0.0622759659574405,1999 - 2004,Latvia
+infant mortality decrease,0.00274040777194886,2004 - 2009,Latvia
+infant mortality decrease,0.0807377379638951,2009 - 2014,Latvia
+infant mortality decrease,-0.019939076655871,2014 - 2019,Latvia
+Background,0.780466615123254,1959 - 1964,Latvia
+Background,0.210037902701829,1964 - 1969,Latvia
+Background,0.273876512547841,1969 - 1974,Latvia
+Background,-0.242212302156478,1974 - 1979,Latvia
+Background,0.529512043884042,1979 - 1984,Latvia
+Background,-0.297654993437933,1984 - 1989,Latvia
+Background,0.179242985492479,1989 - 1994,Latvia
+Background,-0.225141978969984,1994 - 1999,Latvia
+Background,0.34209563761211,1999 - 2004,Latvia
+Background,0.165439357389957,2004 - 2009,Latvia
+Background,-0.341149104029274,2009 - 2014,Latvia
+Background,0.201085790155487,2014 - 2019,Latvia
+Compression,-0.34137644080072,1959 - 1964,Latvia
+Compression,0.0882131287095865,1964 - 1969,Latvia
+Compression,-0.151571531077243,1969 - 1974,Latvia
+Compression,-0.101857300492501,1974 - 1979,Latvia
+Compression,-0.0798999500419905,1979 - 1984,Latvia
+Compression,0.0576422594401984,1984 - 1989,Latvia
+Compression,-0.538464346269879,1989 - 1994,Latvia
+Compression,0.505842658829508,1994 - 1999,Latvia
+Compression,0.0515043614255861,1999 - 2004,Latvia
+Compression,0.0728585752489703,2004 - 2009,Latvia
+Compression,0.290519577024488,2009 - 2014,Latvia
+Compression,0.04131385180864,2014 - 2019,Latvia
+Shift,1.34429690019799,1959 - 1964,Latvia
+Shift,-0.968684302632561,1964 - 1969,Latvia
+Shift,0.184732220188925,1969 - 1974,Latvia
+Shift,-0.602847631396779,1974 - 1979,Latvia
+Shift,-0.155101007312578,1979 - 1984,Latvia
+Shift,0.686189733922972,1984 - 1989,Latvia
+Shift,-2.00152353756328,1989 - 1994,Latvia
+Shift,2.28394796474322,1994 - 1999,Latvia
+Shift,0.477106581171156,1999 - 2004,Latvia
+Shift,1.08049928649997,2004 - 2009,Latvia
+Shift,1.33312804511473,2009 - 2014,Latvia
+Shift,0.582935665954327,2014 - 2019,Latvia
+infant mortlaiy initial,0.602632404919058,1959 - 1964,Lithuania
+infant mortlaiy initial,0.233987126355915,1964 - 1969,Lithuania
+infant mortlaiy initial,0.0434591917135772,1969 - 1974,Lithuania
+infant mortlaiy initial,0.0414992795656779,1974 - 1979,Lithuania
+infant mortlaiy initial,0.169552977540758,1979 - 1984,Lithuania
+infant mortlaiy initial,0.0414838367010542,1984 - 1989,Lithuania
+infant mortlaiy initial,-0.0809555688751952,1989 - 1994,Lithuania
+infant mortlaiy initial,0.110787480780972,1994 - 1999,Lithuania
+infant mortlaiy initial,0.0408573509855148,1999 - 2004,Lithuania
+infant mortlaiy initial,0.0467747491049364,2004 - 2009,Lithuania
+infant mortlaiy initial,0.00423200162523359,2009 - 2014,Lithuania
+infant mortlaiy initial,0.0237628123062873,2014 - 2019,Lithuania
+infant mortality decrease,0.188230914934074,1959 - 1964,Lithuania
+infant mortality decrease,-0.232905435395613,1964 - 1969,Lithuania
+infant mortality decrease,0.023162856509197,1969 - 1974,Lithuania
+infant mortality decrease,0.0697961470367759,1974 - 1979,Lithuania
+infant mortality decrease,-0.0955554867194087,1979 - 1984,Lithuania
+infant mortality decrease,0.091813978316901,1984 - 1989,Lithuania
+infant mortality decrease,0.108512892122165,1989 - 1994,Lithuania
+infant mortality decrease,0.00658452107377811,1994 - 1999,Lithuania
+infant mortality decrease,-0.0269208891667094,1999 - 2004,Lithuania
+infant mortality decrease,0.0306039540953027,2004 - 2009,Lithuania
+infant mortality decrease,-0.00203222261950354,2009 - 2014,Lithuania
+infant mortality decrease,0.00101317814845812,2014 - 2019,Lithuania
+Background,0.373785856156428,1959 - 1964,Lithuania
+Background,0.498475882412244,1964 - 1969,Lithuania
+Background,0.0356531228140481,1969 - 1974,Lithuania
+Background,-0.0275605062118025,1974 - 1979,Lithuania
+Background,-0.019993713105537,1979 - 1984,Lithuania
+Background,-0.095107611116301,1984 - 1989,Lithuania
+Background,-0.0611569435333461,1989 - 1994,Lithuania
+Background,-0.092657650754624,1994 - 1999,Lithuania
+Background,0.429386069004104,1999 - 2004,Lithuania
+Background,-0.203411472066011,2004 - 2009,Lithuania
+Background,-0.0465491583973545,2009 - 2014,Lithuania
+Background,0.131520768351204,2014 - 2019,Lithuania
+Compression,-0.0368349525537552,1959 - 1964,Lithuania
+Compression,0.0801982188977378,1964 - 1969,Lithuania
+Compression,-0.117582913460218,1969 - 1974,Lithuania
+Compression,0.0117570463268805,1974 - 1979,Lithuania
+Compression,0.0233175412390849,1979 - 1984,Lithuania
+Compression,0.0900580379990192,1984 - 1989,Lithuania
+Compression,-0.0830394529185567,1989 - 1994,Lithuania
+Compression,0.437491776779359,1994 - 1999,Lithuania
+Compression,-0.121887532464717,1999 - 2004,Lithuania
+Compression,0.11724328679025,2004 - 2009,Lithuania
+Compression,0.273667796365837,2009 - 2014,Lithuania
+Compression,0.0972510094473813,2014 - 2019,Lithuania
+Shift,2.21334275551919,1959 - 1964,Lithuania
+Shift,-1.06056741304801,1964 - 1969,Lithuania
+Shift,0.646894799202167,1969 - 1974,Lithuania
+Shift,-0.299955475676386,1974 - 1979,Lithuania
+Shift,-0.374347166249687,1979 - 1984,Lithuania
+Shift,0.583070209209726,1984 - 1989,Lithuania
+Shift,-1.0927203865875,1989 - 1994,Lithuania
+Shift,1.53995603477967,1994 - 1999,Lithuania
+Shift,0.472442606529166,1999 - 2004,Lithuania
+Shift,0.556461309921413,2004 - 2009,Lithuania
+Shift,1.02464462635777,2009 - 2014,Lithuania
+Shift,0.77825002128526,2014 - 2019,Lithuania
+infant mortlaiy initial,0.638924269673697,1959 - 1964,Poland
+infant mortlaiy initial,0.308199466734596,1964 - 1969,Poland
+infant mortlaiy initial,0.126354979243255,1969 - 1974,Poland
+infant mortlaiy initial,0.0568031354304717,1974 - 1979,Poland
+infant mortlaiy initial,0.053215141849337,1979 - 1984,Poland
+infant mortlaiy initial,0.0690881048266432,1984 - 1989,Poland
+infant mortlaiy initial,0.0850384757116629,1989 - 1994,Poland
+infant mortlaiy initial,0.139264649820333,1994 - 1999,Poland
+infant mortlaiy initial,0.0432478156216155,1999 - 2004,Poland
+infant mortlaiy initial,0.0297724781415256,2004 - 2009,Poland
+infant mortlaiy initial,0.0189764928405046,2009 - 2014,Poland
+infant mortlaiy initial,0.00902190581570411,2014 - 2019,Poland
+infant mortality decrease,0.0675899304497982,1959 - 1964,Poland
+infant mortality decrease,0.0421067586135155,1964 - 1969,Poland
+infant mortality decrease,0.0856421132297512,1969 - 1974,Poland
+infant mortality decrease,0.0127192734772219,1974 - 1979,Poland
+infant mortality decrease,-0.0311831669494009,1979 - 1984,Poland
+infant mortality decrease,-0.0309041350347545,1984 - 1989,Poland
+infant mortality decrease,0.0270044604953506,1989 - 1994,Poland
+infant mortality decrease,0.00788468565389582,1994 - 1999,Poland
+infant mortality decrease,0.0147868802923472,1999 - 2004,Poland
+infant mortality decrease,0.00425830259309098,2004 - 2009,Poland
+infant mortality decrease,-0.0101862640430444,2009 - 2014,Poland
+infant mortality decrease,0.00926275813150328,2014 - 2019,Poland
+Background,0.690348148576114,1959 - 1964,Poland
+Background,0.181332691173244,1964 - 1969,Poland
+Background,0.136080294113327,1969 - 1974,Poland
+Background,0.000947803342338658,1974 - 1979,Poland
+Background,0.123485043229846,1979 - 1984,Poland
+Background,0.10789740029596,1984 - 1989,Poland
+Background,0.0426305047403091,1989 - 1994,Poland
+Background,0.0814518482861259,1994 - 1999,Poland
+Background,0.0899336172030554,1999 - 2004,Poland
+Background,-0.027167643391295,2004 - 2009,Poland
+Background,0.102313177557599,2009 - 2014,Poland
+Background,0.0508170955670581,2014 - 2019,Poland
+Compression,0.00850128343064649,1959 - 1964,Poland
+Compression,0.00971352716074083,1964 - 1969,Poland
+Compression,0.051734660979012,1969 - 1974,Poland
+Compression,-0.0762506793025459,1974 - 1979,Poland
+Compression,0.0294281364858558,1979 - 1984,Poland
+Compression,-0.113947570578745,1984 - 1989,Poland
+Compression,0.112901208957097,1989 - 1994,Poland
+Compression,0.00433772252710422,1994 - 1999,Poland
+Compression,0.0195499331920624,1999 - 2004,Poland
+Compression,0.0318579046239454,2004 - 2009,Poland
+Compression,0.00543171672194942,2009 - 2014,Poland
+Compression,0.0118921787154508,2014 - 2019,Poland
+Shift,0.905810270356804,1959 - 1964,Poland
+Shift,0.266765267675101,1964 - 1969,Poland
+Shift,0.782116939509003,1969 - 1974,Poland
+Shift,0.148312180938081,1974 - 1979,Poland
+Shift,-0.313635394733026,1979 - 1984,Poland
+Shift,0.318834171669595,1984 - 1989,Poland
+Shift,0.437336304558942,1989 - 1994,Poland
+Shift,0.814776093651137,1994 - 1999,Poland
+Shift,1.54211649224373,1999 - 2004,Poland
+Shift,0.599278521776577,2004 - 2009,Poland
+Shift,1.28930342981612,2009 - 2014,Poland
+Shift,0.24744629723455,2014 - 2019,Poland
+infant mortlaiy initial,0.205278263777044,1959 - 1964,Slovakia
+infant mortlaiy initial,-0.0083516248216084,1964 - 1969,Slovakia
+infant mortlaiy initial,0.0890683717029196,1969 - 1974,Slovakia
+infant mortlaiy initial,0.0441619468179546,1974 - 1979,Slovakia
+infant mortlaiy initial,0.0789203572234692,1979 - 1984,Slovakia
+infant mortlaiy initial,0.079373107017365,1984 - 1989,Slovakia
+infant mortlaiy initial,0.0829775066537116,1989 - 1994,Slovakia
+infant mortlaiy initial,0.0389702659286374,1994 - 1999,Slovakia
+infant mortlaiy initial,0.0471782721704507,1999 - 2004,Slovakia
+infant mortlaiy initial,0.0437933571017504,2004 - 2009,Slovakia
+infant mortlaiy initial,-0.0195353251131125,2009 - 2014,Slovakia
+infant mortlaiy initial,0.0312122053623521,2014 - 2019,Slovakia
+infant mortality decrease,0.25266692716231,1959 - 1964,Slovakia
+infant mortality decrease,0.00178742653770403,1964 - 1969,Slovakia
+infant mortality decrease,0.126963467908764,1969 - 1974,Slovakia
+infant mortality decrease,0.0201458448853226,1974 - 1979,Slovakia
+infant mortality decrease,-0.0017533230728283,1979 - 1984,Slovakia
+infant mortality decrease,0.0247147387086004,1984 - 1989,Slovakia
+infant mortality decrease,-0.000173887005647955,1989 - 1994,Slovakia
+infant mortality decrease,-0.00209897775716703,1994 - 1999,Slovakia
+infant mortality decrease,-0.102810190556576,1999 - 2004,Slovakia
+infant mortality decrease,0.0598097495336894,2004 - 2009,Slovakia
+infant mortality decrease,0.0109506645940932,2009 - 2014,Slovakia
+infant mortality decrease,-0.0186558834938834,2014 - 2019,Slovakia
+Background,0.306638954705209,1959 - 1964,Slovakia
+Background,-0.0324772880867481,1964 - 1969,Slovakia
+Background,0.0663967829263303,1969 - 1974,Slovakia
+Background,0.252271784920272,1974 - 1979,Slovakia
+Background,0.103473946868061,1979 - 1984,Slovakia
+Background,-0.0679165743137687,1984 - 1989,Slovakia
+Background,0.160369654657934,1989 - 1994,Slovakia
+Background,-0.0209227280267733,1994 - 1999,Slovakia
+Background,0.0808722105128191,1999 - 2004,Slovakia
+Background,-0.0577134752759509,2004 - 2009,Slovakia
+Background,0.078428989219272,2009 - 2014,Slovakia
+Background,-0.106485079201165,2014 - 2019,Slovakia
+Compression,-0.0647429526327585,1959 - 1964,Slovakia
+Compression,-0.0306510103927158,1964 - 1969,Slovakia
+Compression,0.0439508442823488,1969 - 1974,Slovakia
+Compression,-0.0407549936630527,1974 - 1979,Slovakia
+Compression,-0.018260995431695,1979 - 1984,Slovakia
+Compression,-0.00784527056722231,1984 - 1989,Slovakia
+Compression,-0.0341785644462945,1989 - 1994,Slovakia
+Compression,0.0644515642841517,1994 - 1999,Slovakia
+Compression,0.0314663155924175,1999 - 2004,Slovakia
+Compression,0.127578213458565,2004 - 2009,Slovakia
+Compression,0.0424789676127742,2009 - 2014,Slovakia
+Compression,-0.0527839442677597,2014 - 2019,Slovakia
+Shift,1.37394319236684,1959 - 1964,Slovakia
+Shift,-0.380641308005368,1964 - 1969,Slovakia
+Shift,0.249113983055466,1969 - 1974,Slovakia
+Shift,0.429275120196599,1974 - 1979,Slovakia
+Shift,0.0254301562394226,1979 - 1984,Slovakia
+Shift,0.249141927096592,1984 - 1989,Slovakia
+Shift,0.771871343328161,1989 - 1994,Slovakia
+Shift,0.485375664218156,1994 - 1999,Slovakia
+Shift,0.750531961533219,1999 - 2004,Slovakia
+Shift,0.705424103689346,2004 - 2009,Slovakia
+Shift,1.29473644861649,2009 - 2014,Slovakia
+Shift,0.785707693986931,2014 - 2019,Slovakia

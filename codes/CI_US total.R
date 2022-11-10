@@ -49,3 +49,34 @@ for(i in 1:nrow(par_mat)){
                      control=DEoptim.control(NP=100,
                                              trace=300))$optim$bestmem
 }
+
+#### Bootstrap the mortality rate ####
+
+age <- 0:110
+
+m <- nrow(Dx)
+Ns <- 100
+
+qx <- 1-exp((Dx[,1]/Ex[,1])*-1)
+
+boot_mat <- suppressWarnings(matrix(rbinom(m*Ns,
+                                    as.integer(Ex[,1]),
+                                    qx),
+                             nrow=m,ncol=Ns))
+
+table_dth <- data.table(parameter = 1:5)
+
+for(i in 1:ncol(boot_mat)){
+  vec <- DEoptim(fn=ll.poisson.siler, 
+                         lower=c(0.000001, 0,  0, 50,  0.04),  
+                         upper=c(0.7, 6,  0.1, 110,  1), 
+                         Dx=boot_mat[,i], 
+                         Nx= Ex[,1],
+                         x=age, 
+                         control=DEoptim.control(NP=100,
+                                                 trace=300))$optim$bestmem
+  table_dth[,paste0(i):=vec]
+}
+
+
+hist(unlist(table_dth[4,-1]))
