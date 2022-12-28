@@ -227,7 +227,7 @@ Decomp.Siler<- function(Dx,Nx, age.start, age.end){
     M <- theta[4]
     b2 <- theta[5]
     out <-  -sum(Dx*log(siler(x=x, a1=a1, b1=b1, c=c, M=M, b2=b2))-
-                   siler(x=x, a1=a1, b1=b1, c=c, M=M, b2=b2)*Nx)
+                   siler(x=x, a1=a1, b1=b1, c=c, M=M, b2=b2)*Nx,na.rm = T)
     return(out)
     
   }
