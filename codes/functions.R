@@ -3,6 +3,8 @@
 ###
 ###
 
+if(!require(DEoptim)){install.packages("DEoptim")}
+
 library(DEoptim)
 
 # Arguments:
