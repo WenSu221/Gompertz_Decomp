@@ -57,6 +57,6 @@ for (x in 1:length(states)){
 
 weights2 <- dcast(weights,year+gender+age~states,value.var = "count")
 
-setorder(weights2,states,year)
+setorder(weights2,year)
 
 fwrite(weights2,"data/pop_smooth_2011-2020.csv",sep=",")
